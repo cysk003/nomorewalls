@@ -4,22 +4,6 @@ proxies:
   name: 'B - 🇸🇬 SG 04 TG: @nodpai'
   network: ws
   port: 16618
-  server: t.cnmjcn.cyou
-  type: vmess
-  udp: true
-  uuid: 881da2de-238e-425e-a7e7-389f4842e545
-  ws-headers:
-    Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
-  ws-opts:
-    headers:
-      Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
-    path: /
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇸🇬 SG 07 TG: @nodpai'
-  network: ws
-  port: 16618
   server: m.cnmjin.net
   type: vmess
   udp: true
@@ -33,38 +17,23 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 'C - 🇸🇬 SG 08 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 05 TG: @nodpai'
+  network: ws
+  port: 16618
+  server: m.cnmjin.net
+  type: vmess
+  udp: true
+  uuid: 79a6fb0f-e9c2-43c4-b637-d2b5379f1e20
+  ws-opts:
+    headers:
+      Host: b38c9b87b830706798bb6e3580c2207a.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇸🇬 SG 09 TG: @nodpai'
   network: ws
   port: 16618
   server: planb.mojcn.com
-  type: vmess
-  udp: true
-  uuid: 881da2de-238e-425e-a7e7-389f4842e545
-  ws-headers:
-    Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
-  ws-opts:
-    headers:
-      Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
-    path: /
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇸🇬 SG 13 TG: @nodpai'
-  network: ws
-  port: 16618
-  server: m.cnmjin.net
-  type: vmess
-  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
-  ws-opts:
-    headers:
-      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇸🇬 SG 17 TG: @nodpai'
-  network: ws
-  port: 16618
-  server: t.cnmjcn.cyou
   type: vmess
   udp: true
   uuid: 79a6fb0f-e9c2-43c4-b637-d2b5379f1e20
@@ -77,7 +46,19 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 'C - 🇸🇬 SG 19 TG: @nodpai'
+  name: 'C - 🇸🇬 SG 12 TG: @nodpai'
+  network: ws
+  port: 16618
+  server: m.cnmjin.net
+  type: vmess
+  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
+  ws-opts:
+    headers:
+      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇸🇬 SG 18 TG: @nodpai'
   network: ws
   port: 16618
   server: t.cnmjcn.cyou
@@ -89,7 +70,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 'C - 🇸🇬 SG 22 TG: @nodpai'
+  name: 'C - 🇸🇬 SG 21 TG: @nodpai'
+  port: 51556
+  server: 103.181.164.145
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇸🇬 SG 23 TG: @nodpai'
   network: ws
   port: 16618
   server: planb.mojcn.com
@@ -123,21 +111,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- cipher: aes-128-gcm
-  name: 🇸🇬SG_1|1.3MB/s
-  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: aoe.o.eoa.ccwu.cc
-    mode: websocket
-    mux: false
-    path: /?enc\=aes-128-gcm
-    tls: true
-  port: 443
-  server: cf.cloudflare.182682.xyz
-  type: ss
-  udp: true
-- name: 🇸🇬SG_3|1.0MB/s
+- name: 🇸🇬SG_1|2.8MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2096
@@ -147,4 +121,19 @@ proxies:
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
+    path: /tr
+- client-fingerprint: chrome
+  name: 🇸🇬SG_3|1.6MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: '2096'
+  server: 172.64.149.54
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/45.0.2454.85 Safari/537.36
     path: /tr

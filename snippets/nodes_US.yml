@@ -1,30 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 'B - 🇺🇸 US 01 TG: @nodpai'
-  port: 180
-  server: 82.198.246.9
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇺🇸 US 02 TG: @nodpai'
+  name: 'B - 🇺🇸 US 05 TG: @nodpai'
   port: 180
   server: 82.198.246.233
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇺🇸 US 08 TG: @nodpai'
-  port: 180
-  server: 82.198.246.97
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 'B - 🇺🇸 US 10 TG: @nodpai'
+- name: 'B - 🇺🇸 US 08 TG: @nodpai'
   network: ws
   password: '!!str 1234567890'
-  port: 8443
-  server: 152.53.227.239
+  port: 443
+  server: 143.20.160.200
   sni: kfm-bn0.pages.dev
   tls: true
   type: trojan
@@ -32,21 +18,22 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- name: 'C - 🇺🇸 US 11 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 139.59.239.116
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
   name: 'C - 🇺🇸 US 12 TG: @nodpai'
-  network: ws
-  port: 16648
-  server: planb.mojcn.com
-  type: vmess
-  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
-  ws-opts:
-    headers:
-      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇺🇸 US 13 TG: @nodpai'
   network: ws
   port: 16648
   server: m.cnmjin.net
@@ -60,9 +47,34 @@ proxies:
       Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
     path: /
   ws-path: /
+- name: 'C - 🇺🇸 US 13 TG: @nodpai'
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 77.110.96.220
+  sni: kfm-bn0.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- name: 'C - 🇺🇸 US 14 TG: @nodpai'
+  network: ws
+  password: '!!str 1234567890'
+  port: 2083
+  server: 164.92.243.95
+  skip-cert-verify: true
+  sni: kfm-bn0.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
 - alterId: 0
   cipher: auto
-  name: 'C - 🇺🇸 US 14 TG: @nodpai'
+  name: 'C - 🇺🇸 US 15 TG: @nodpai'
   network: ws
   port: 16648
   server: t.cnmjcn.cyou
@@ -76,21 +88,24 @@ proxies:
       Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
     path: /
   ws-path: /
-- name: 'C - 🇺🇸 US 15 TG: @nodpai'
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇺🇸 US 16 TG: @nodpai'
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 65.21.179.149
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
+  port: 16648
+  server: planb.mojcn.com
+  type: vmess
+  udp: true
+  uuid: 881da2de-238e-425e-a7e7-389f4842e545
+  ws-headers:
+    Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
+      Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
+    path: /
+  ws-path: /
 - client-fingerprint: chrome
-  name: 'C - 🇺🇸 US 16 TG: @nodpai'
+  name: 'C - 🇺🇸 US 17 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
@@ -103,9 +118,28 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
+- name: 'C - 🇺🇸 US 18 TG: @nodpai'
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 202.61.195.167
+  sni: kfm-bn0.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- alterId: 2
+  cipher: auto
+  name: 'C - 🇺🇸 US 19 TG: @nodpai'
+  port: 30804
+  server: v4.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 'C - 🇺🇸 US 21 TG: @nodpai'
+  name: 'C - 🇺🇸 US 22 TG: @nodpai'
   network: ws
   port: 16648
   server: t.cnmjcn.cyou
@@ -121,18 +155,6 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 'C - 🇺🇸 US 22 TG: @nodpai'
-  network: ws
-  port: 16648
-  server: m.cnmjin.net
-  type: vmess
-  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
-  ws-opts:
-    headers:
-      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 'C - 🇺🇸 US 24 TG: @nodpai'
   network: ws
   port: 16648
@@ -144,19 +166,6 @@ proxies:
       Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
     path: /
 - name: 'D - 🇺🇸 US 26 TG: @nodpai'
-  network: ws
-  password: '!!str 162534'
-  port: 443
-  server: 198.13.37.176
-  skip-cert-verify: true
-  sni: cchh2.pages.dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: cchh2.pages.dev
-    path: /?ed=2560
-- name: 'D - 🇺🇸 US 27 TG: @nodpai'
   network: ws
   password: '!!str 162534'
   port: 42841
@@ -192,59 +201,28 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: US_speednode_0137
-  network: ws
-  password: '!!str 1234567890'
-  port: 8443
-  server: 95.164.123.131
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_1|1.4MB/s
+  port: 180
+  server: 82.198.246.9
   skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: US_speednode_0138
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 144.31.118.170
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_6|1.7MB/s
+  network: raw
+  port: '180'
+  server: 82.198.246.9
   skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: US_speednode_0139
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 64.188.70.233
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: US_speednode_0140
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 144.31.116.8
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: US_speednode_0142
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- name: US_speednode_0097
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -257,7 +235,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: US_speednode_0144
+- name: US_speednode_0099
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -270,11 +248,11 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: US_speednode_0145
+- name: US_speednode_0100
   network: ws
   password: '!!str 1234567890'
   port: 443
-  server: 64.188.70.233
+  server: 144.31.116.8
   skip-cert-verify: false
   sni: kfm-bn0.pages.dev
   type: trojan
@@ -282,8 +260,21 @@ proxies:
   ws-opts:
     headers:
       Host: kfm-bn0.pages.dev
-    path: /
-- name: US_speednode_0146
+    path: /?ed=2560
+- name: US_speednode_0101
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 144.31.118.170
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: US_speednode_0102
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -296,11 +287,24 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /
-- name: US_speednode_0152
+- name: US_speednode_0103
   network: ws
   password: '!!str 1234567890'
   port: 443
-  server: 144.31.98.216
+  server: 64.188.70.233
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: US_speednode_0104
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 64.188.70.233
   skip-cert-verify: false
   sni: kfm-bn0.pages.dev
   type: trojan
@@ -309,33 +313,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: US_speednode_0159
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 144.31.216.160
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: US_speednode_0160
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 144.31.218.10
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: US_speednode_0163
+- name: US_speednode_0107
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -348,11 +326,11 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: US_speednode_0164
+- name: US_speednode_0108
   network: ws
   password: '!!str 1234567890'
-  port: 8443
-  server: 144.31.213.59
+  port: 443
+  server: 144.31.216.160
   skip-cert-verify: false
   sni: kfm-bn0.pages.dev
   type: trojan
@@ -361,7 +339,111 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: US_speednode_0165
+- name: US_speednode_0109
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 144.31.218.10
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: US_speednode_0111
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 64.188.118.193
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: US_speednode_0114
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 144.31.85.72
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: US_speednode_0115
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 64.188.89.147
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: US_speednode_0116
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 144.31.116.8
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: US_speednode_0117
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 144.31.139.103
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: US_speednode_0118
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 64.188.105.7
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: US_speednode_0119
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 144.31.138.127
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: US_speednode_0120
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -374,3 +456,68 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
+- name: US_speednode_0122
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 144.31.216.160
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: US_speednode_0123
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 64.188.115.82
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: US_speednode_0125
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 144.31.188.6
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: US_speednode_0126
+  network: ws
+  password: '!!str 1234567890'
+  port: 8443
+  server: 64.188.89.147
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: US_speednode_0127
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 104.128.139.68
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /

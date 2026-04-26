@@ -89,39 +89,51 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 'B - 🇭🇰 HK 01 TG: @nodpai'
+- grpc-opts:
+    grpc-service-name: weixin
+  name: 'B - 🇭🇰 HK 02 TG: @nodpai'
+  network: grpc
+  password: fbd85219-f710-41f2-a277-8b710844fa0f
+  port: 56401
+  server: t1.entrance.app.tdns.men
+  skip-cert-verify: true
+  sni: work.weixin.qq.com
+  type: trojan
+  udp: true
+- name: 'B - 🇭🇰 HK 03 TG: @nodpai'
   network: ws
   port: 8880
-  server: 45.131.4.253
+  server: 198.177.56.253
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
       Host: joss.jak.biz.id
     path: /Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2🇨🇳
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇭🇰 HK 02 TG: @nodpai'
+- name: 'B - 🇭🇰 HK 04 TG: @nodpai'
   network: ws
-  port: 16632
-  server: planb.mojcn.com
-  type: vmess
-  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
-  ws-opts:
-    headers:
-      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
-    path: /
-- name: 'B - 🇭🇰 HK 03 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-  security: reality
-  server: 8.218.97.160
+  port: 8443
+  security: tls
+  server: 43.161.216.173
+  servername: joss.jak.biz.id
   tls: true
   type: vless
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: joss.jak.biz.id
+    path: /Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2🇨🇳
 - name: 'B - 🇭🇰 HK 06 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 185.148.106.253
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: joss.jak.biz.id
+    path: /Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2🇨🇳
+- name: 'B - 🇭🇰 HK 08 TG: @nodpai'
   network: ws
   port: 443
   security: tls
@@ -136,43 +148,44 @@ proxies:
     path: /Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2🇨🇳
 - alterId: 0
   cipher: auto
-  name: 'B - 🇭🇰 HK 08 TG: @nodpai'
+  name: 'B - 🇭🇰 HK 09 TG: @nodpai'
   network: ws
-  port: 16622
-  server: m.cnmjin.net
+  port: 16632
+  server: t.cnmjcn.cyou
   type: vmess
-  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
+  udp: true
+  uuid: 881da2de-238e-425e-a7e7-389f4842e545
+  ws-headers:
+    Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
+      Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
     path: /
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 'B - 🇭🇰 HK 10 TG: @nodpai'
-  network: http
-  port: 15079
-  server: 38.22.93.20
-  tls: false
-  type: vmess
-  uuid: 66e12acd-4f93-4e35-e229-5f93e2f379e1
+  ws-path: /
+- name: 'B - 🇭🇰 HK 10 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 188.42.89.253
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: joss.jak.biz.id
+    path: /Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2🇨🇳
 - name: 'B - 🇭🇰 HK 11 TG: @nodpai'
   network: ws
   port: 8880
-  server: 198.71.191.253
+  server: 104.238.68.253
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
       Host: joss.jak.biz.id
     path: /Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 'B - 🇭🇰 HK 12 TG: @nodpai'
+- name: 'B - 🇭🇰 HK 13 TG: @nodpai'
   network: ws
   port: 8880
-  server: 91.206.71.253
+  server: 166.62.109.253
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
@@ -181,9 +194,9 @@ proxies:
     path: /Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2🇨🇳
 - alterId: 0
   cipher: auto
-  name: 'B - 🇭🇰 HK 13 TG: @nodpai'
+  name: 'B - 🇭🇰 HK 14 TG: @nodpai'
   network: ws
-  port: 16622
+  port: 16632
   server: m.cnmjin.net
   type: vmess
   uuid: 881da2de-238e-425e-a7e7-389f4842e545
@@ -191,10 +204,10 @@ proxies:
     headers:
       Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
     path: /
-- name: 'B - 🇭🇰 HK 14 TG: @nodpai'
+- name: 'B - 🇭🇰 HK 15 TG: @nodpai'
   network: ws
   port: 8880
-  server: 154.197.88.253
+  server: 104.129.166.253
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
@@ -203,8 +216,11 @@ proxies:
     path: /Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2🇨🇳
 - name: 'B - 🇭🇰 HK 16 TG: @nodpai'
   network: ws
-  port: 8880
-  server: 173.245.49.253
+  port: 443
+  security: tls
+  server: 161.248.254.27
+  servername: joss.jak.biz.id
+  tls: true
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
@@ -214,7 +230,7 @@ proxies:
 - name: 'B - 🇭🇰 HK 17 TG: @nodpai'
   network: ws
   port: 8880
-  server: 166.62.113.253
+  server: 173.245.49.253
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
@@ -243,10 +259,10 @@ proxies:
     headers:
       Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
     path: /
-- name: 'B - 🇭🇰 HK 20 TG: @nodpai'
+- name: 'C - 🇭🇰 HK 20 TG: @nodpai'
   network: ws
   port: 8880
-  server: 185.238.228.253
+  server: 66.235.200.253
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
@@ -256,7 +272,7 @@ proxies:
 - name: 'C - 🇭🇰 HK 21 TG: @nodpai'
   network: ws
   port: 8880
-  server: 160.153.136.253
+  server: 216.24.57.253
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
@@ -266,7 +282,7 @@ proxies:
 - name: 'C - 🇭🇰 HK 22 TG: @nodpai'
   network: ws
   port: 8880
-  server: 92.243.75.253
+  server: 185.156.19.253
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
@@ -276,7 +292,7 @@ proxies:
 - name: 'C - 🇭🇰 HK 23 TG: @nodpai'
   network: ws
   port: 8880
-  server: 185.193.30.253
+  server: 141.11.202.253
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
@@ -286,6 +302,16 @@ proxies:
 - name: 'C - 🇭🇰 HK 24 TG: @nodpai'
   network: ws
   port: 8880
+  server: 141.101.123.253
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: joss.jak.biz.id
+    path: /Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2🇨🇳
+- name: 'C - 🇭🇰 HK 25 TG: @nodpai'
+  network: ws
+  port: 8880
   server: 45.40.150.253
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -293,51 +319,30 @@ proxies:
     headers:
       Host: joss.jak.biz.id
     path: /Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2🇨🇳
-- encryption: none
-  name: 'C - 🇭🇰 HK 25 TG: @nodpai'
+- name: 'C - 🇭🇰 HK 26 TG: @nodpai'
   network: ws
-  port: 17820
-  server: s5.db-link.in
-  servername: 48afa0c5c9.shopify.com
-  skip-cert-verify: true
+  port: 8880
+  server: 72.167.243.253
   type: vless
-  uuid: 75d4d24d-ba8d-3676-a5c6-edd6ea6dbfb6
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: 48afa0c5c9.shopify.com
-    path: /db102448afa0c5c9fp=chromesecurity=tls
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇭🇰 HK 26 TG: @nodpai'
+      Host: joss.jak.biz.id
+    path: /Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2🇨🇳
+- name: 'C - 🇭🇰 HK 27 TG: @nodpai'
   network: ws
-  port: 16632
-  server: t.cnmjcn.cyou
-  type: vmess
-  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
+  port: 8880
+  server: 45.40.146.253
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇭🇰 HK 27 TG: @nodpai'
-  network: ws
-  port: 16632
-  server: t.cnmjcn.cyou
-  type: vmess
-  udp: true
-  uuid: 79a6fb0f-e9c2-43c4-b637-d2b5379f1e20
-  ws-headers:
-    Host: b38c9b87b830706798bb6e3580c2207a.mobgslb.tbcache.com
-  ws-opts:
-    headers:
-      Host: b38c9b87b830706798bb6e3580c2207a.mobgslb.tbcache.com
-    path: /
-  ws-path: /
+      Host: joss.jak.biz.id
+    path: /Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2🇨🇳
 - name: 'C - 🇭🇰 HK 28 TG: @nodpai'
   network: ws
   port: 8880
-  server: 50.62.194.253
+  server: 45.80.110.253
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
@@ -347,7 +352,42 @@ proxies:
 - name: 'C - 🇭🇰 HK 29 TG: @nodpai'
   network: ws
   port: 8880
-  server: 188.42.88.253
+  server: 166.62.105.253
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: joss.jak.biz.id
+    path: /Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2🇨🇳
+- name: 'C - 🇭🇰 HK 30 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.135.235.253
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: joss.jak.biz.id
+    path: /Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2🇨🇳
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇭🇰 HK 31 TG: @nodpai'
+  network: ws
+  port: 16622
+  server: t.cnmjcn.cyou
+  type: vmess
+  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
+  ws-opts:
+    headers:
+      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
+    path: /
+- name: 'C - 🇭🇰 HK 32 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 46.8.226.15
+  servername: joss.jak.biz.id
+  tls: true
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
@@ -364,12 +404,13 @@ proxies:
   sni: vpn-tw-001.fastervpn.world
   type: hysteria2
   udp: true
-- name: 'B - 🇹🇼 TW 02 TG: @nodpai'
+- name: CN_speednode_0027
   password: f8eca8df-a1a5-4918-a194-d34112a3673f
   port: 23445
   server: t3cache.71edgeiqiyi.com
   tls: true
   type: http
+  udp: true
   username: f8eca8df-a1a5-4918-a194-d34112a3673f
 - name: 'B - 🇹🇼 TW 03 TG: @nodpai'
   password: exaxgqkKkd0TAMrCxeonWg==
@@ -431,20 +472,16 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇹🇼TW_1|1.9MB/s
+  name: 'C - 🇹🇼 TW 10 TG: @nodpai'
   network: ws
   port: 16616
   server: t.cnmjcn.cyou
   type: vmess
-  udp: true
   uuid: 881da2de-238e-425e-a7e7-389f4842e545
-  ws-headers:
-    Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
   ws-opts:
     headers:
       Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
     path: /
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: 'C - 🇹🇼 TW 11 TG: @nodpai'
@@ -541,6 +578,25 @@ proxies:
     headers:
       Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
     path: /
+- name: 'A - 🇯🇵 JP 02 TG: @nodpai'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-jp-011.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-jp-011.fastervpn.world
+  type: hysteria2
+- name: 'B - 🇯🇵 JP 03 TG: @nodpai'
+  network: ws
+  port: 35491
+  security: tls
+  server: 121.179.3.58
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: ji52i2alvx8ntcpgjev.acg.xx.kg
+    path: /@Marisa_kristi
 - alterId: 0
   cipher: auto
   name: 'B - 🇯🇵 JP 04 TG: @nodpai'
@@ -554,45 +610,49 @@ proxies:
       Host: ithome.com
     path: /chat
 - name: 'B - 🇯🇵 JP 06 TG: @nodpai'
-  network: ws
-  port: 30032
-  security: tls
-  server: 59.24.2.248
-  servername: eiti60o44la.bsld.de5.net
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: eiti60o44la.bsld.de5.net
-    path: /@Marisa_kristifp=chrome
+  obfs: salamander
+  obfs-password: CF7WJGiw6r1c8imX
+  password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+  port: 5443
+  server: jp-hy2.onetaplink.app
+  sni: hy2-jp.onetaplink.app
+  type: hysteria2
 - name: 'B - 🇯🇵 JP 07 TG: @nodpai'
   network: ws
-  port: 30029
+  port: 31934
   security: tls
-  server: 121.182.50.110
-  servername: 8a005khup3.mesa.ip-ddns.com
+  server: 211.184.99.67
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: 8a005khup3.mesa.ip-ddns.com
-    path: /@Marisa_kristifp=chrome
-- encryption: none
+      Host: ji52i2alvx8ntcpgjev.acg.xx.kg
+    path: /@Marisa_kristi
+- name: 'B - 🇯🇵 JP 13 TG: @nodpai'
+  network: ws
+  port: 12153
+  security: tls
+  server: 210.96.92.11
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: mhgzqzcnxpjginc5hkdk.bpd67081tsq.ddns-ip.net
+    path: /@Marisa_kristi
+- alterId: 0
+  cipher: auto
   name: 'B - 🇯🇵 JP 15 TG: @nodpai'
   network: ws
-  port: 443
-  security: tls
-  server: www.shopify.com
-  servername: pw2ty822oipl53mogkzvzbv5ee97.saghv.filegear-sg.me
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
+  port: 16617
+  server: t.cnmjcn.cyou
+  type: vmess
+  uuid: 881da2de-238e-425e-a7e7-389f4842e545
   ws-opts:
     headers:
-      Host: pw2ty822oipl53mogkzvzbv5ee97.saghv.filegear-sg.me
-    path: /@Marisa_kristifp=chrome
+      Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
+    path: /
 - alterId: 2
   cipher: auto
   name: 'B - 🇯🇵 JP 16 TG: @nodpai'
@@ -600,62 +660,21 @@ proxies:
   server: v6.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- encryption: none
+- alterId: 0
+  cipher: auto
   name: 'B - 🇯🇵 JP 18 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: staticdelivery.nexusmods.com
-  servername: pw2ty822oipl53mogkzvzbv5ee97.saghv.filegear-sg.me
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: pw2ty822oipl53mogkzvzbv5ee97.saghv.filegear-sg.me
-    path: /@Marisa_kristi
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇯🇵 JP 19 TG: @nodpai'
-  network: ws
-  port: 16617
-  server: m.cnmjin.net
-  type: vmess
-  udp: true
-  uuid: 79a6fb0f-e9c2-43c4-b637-d2b5379f1e20
-  ws-headers:
-    Host: b38c9b87b830706798bb6e3580c2207a.mobgslb.tbcache.com
-  ws-opts:
-    headers:
-      Host: b38c9b87b830706798bb6e3580c2207a.mobgslb.tbcache.com
-    path: /
-  ws-path: /
-- name: 'B - 🇯🇵 JP 20 TG: @nodpai'
-  password: f8eca8df-a1a5-4918-a194-d34112a3673f
-  port: 7443
-  server: jc7U654714155239.asia.steamliveonline.com
-  tls: true
-  type: http
-  username: f8eca8df-a1a5-4918-a194-d34112a3673f
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇯🇵 JP 24 TG: @nodpai'
   network: ws
   port: 16617
   server: t.cnmjcn.cyou
   type: vmess
-  udp: true
-  uuid: 79a6fb0f-e9c2-43c4-b637-d2b5379f1e20
-  ws-headers:
-    Host: b38c9b87b830706798bb6e3580c2207a.mobgslb.tbcache.com
+  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
   ws-opts:
     headers:
-      Host: b38c9b87b830706798bb6e3580c2207a.mobgslb.tbcache.com
+      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
     path: /
-  ws-path: /
 - alterId: 0
   cipher: auto
-  name: 'C - 🇯🇵 JP 26 TG: @nodpai'
+  name: 'C - 🇯🇵 JP 25 TG: @nodpai'
   network: h2
   port: 53224
   server: 103.127.243.49
@@ -669,7 +688,7 @@ proxies:
     originalName: 泰国
     region: 泰国
     tags: []
-  name: 'C - 🇯🇵 JP 27 TG: @nodpai'
+  name: 'C - 🇯🇵 JP 26 TG: @nodpai'
   network: ws
   port: 443
   server: mfa.gov.ua
@@ -685,46 +704,7 @@ proxies:
       Host: pw2ty822oipl53mogkzvzbv5ee97.saghv.filegear-sg.me
     path: /@Marisa_kristi
 - encryption: none
-  name: 'C - 🇯🇵 JP 28 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: cdn.wmsj.eu.org
-  servername: cdn.wmsj.eu.org
-  tls: true
-  type: vless
-  uuid: dc5625c7-a2e0-452d-ab14-d4f2f34b6921
-  ws-opts:
-    headers:
-      Host: cdn.wmsj.eu.org
-    path: /jjp
-- name: 'B - 🇸🇬 SG 01 TG: @nodpai'
-  obfs: salamander
-  obfs-password: OrT7yQQIMqcvKdet
-  password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
-  port: 443
-  server: sg-hy2.onetaplink.app
-  skip-cert-verify: true
-  sni: hy2-sg.onetaplink.app
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇸🇬 SG 04 TG: @nodpai'
-  network: ws
-  port: 16618
-  server: t.cnmjcn.cyou
-  type: vmess
-  udp: true
-  uuid: 881da2de-238e-425e-a7e7-389f4842e545
-  ws-headers:
-    Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
-  ws-opts:
-    headers:
-      Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
-    path: /
-  ws-path: /
-- encryption: none
-  name: 'B - 🇸🇬 SG 05 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 02 TG: @nodpai'
   network: ws
   port: 56271
   server: 146.56.106.51
@@ -736,7 +716,7 @@ proxies:
       Host: snippet.danfeng.rr.kg
     path: /danfengsecurity=tls
 - encryption: none
-  name: 'B - 🇸🇬 SG 06 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 03 TG: @nodpai'
   network: ws
   port: 65000
   server: srv120.towersflowerss.com
@@ -744,7 +724,7 @@ proxies:
   uuid: 36d85d65-1b57-4cba-a2a6-f61131b08593
 - alterId: 0
   cipher: auto
-  name: 'B - 🇸🇬 SG 07 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 04 TG: @nodpai'
   network: ws
   port: 16618
   server: m.cnmjin.net
@@ -760,34 +740,19 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 'C - 🇸🇬 SG 08 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 05 TG: @nodpai'
   network: ws
   port: 16618
-  server: planb.mojcn.com
+  server: m.cnmjin.net
   type: vmess
   udp: true
-  uuid: 881da2de-238e-425e-a7e7-389f4842e545
-  ws-headers:
-    Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
+  uuid: 79a6fb0f-e9c2-43c4-b637-d2b5379f1e20
   ws-opts:
     headers:
-      Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
+      Host: b38c9b87b830706798bb6e3580c2207a.mobgslb.tbcache.com
     path: /
-  ws-path: /
-- name: 'C - 🇸🇬 SG 09 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 104.129.167.42
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.rr.kg
-    path: /danfeng
 - encryption: none
-  name: 'C - 🇸🇬 SG 10 TG: @nodpai'
+  name: 'C - 🇸🇬 SG 06 TG: @nodpai'
   network: ws
   port: 443
   server: 45.40.153.42
@@ -798,7 +763,21 @@ proxies:
     headers:
       Host: snippet.danfeng.rr.kg
     path: /danfengsecurity=tls
-- name: 'C - 🇸🇬 SG 11 TG: @nodpai'
+- encryption: none
+  name: 'C - 🇸🇬 SG 07 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: dnew.cc
+  servername: 2-7fc.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: 2-7fc.pages.dev
+    path: /
+- name: 'C - 🇸🇬 SG 08 TG: @nodpai'
   network: ws
   port: 443
   security: tls
@@ -810,8 +789,24 @@ proxies:
     headers:
       Host: snippet.danfeng.rr.kg
     path: /danfeng
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇸🇬 SG 09 TG: @nodpai'
+  network: ws
+  port: 16618
+  server: planb.mojcn.com
+  type: vmess
+  udp: true
+  uuid: 79a6fb0f-e9c2-43c4-b637-d2b5379f1e20
+  ws-headers:
+    Host: b38c9b87b830706798bb6e3580c2207a.mobgslb.tbcache.com
+  ws-opts:
+    headers:
+      Host: b38c9b87b830706798bb6e3580c2207a.mobgslb.tbcache.com
+    path: /
+  ws-path: /
 - encryption: none
-  name: 'C - 🇸🇬 SG 12 TG: @nodpai'
+  name: 'C - 🇸🇬 SG 10 TG: @nodpai'
   network: ws
   port: 443
   security: tls
@@ -824,9 +819,21 @@ proxies:
     headers:
       Host: snippet.danfeng.rr.kg
     path: /danfeng
+- encryption: none
+  name: 🇺🇸US_2|1.3MB/s
+  network: ws
+  port: 8880
+  server: 181.214.1.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime39.workers.dev
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
 - alterId: 0
   cipher: auto
-  name: 'C - 🇸🇬 SG 13 TG: @nodpai'
+  name: 'C - 🇸🇬 SG 12 TG: @nodpai'
   network: ws
   port: 16618
   server: m.cnmjin.net
@@ -836,7 +843,7 @@ proxies:
     headers:
       Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
     path: /
-- name: 'C - 🇸🇬 SG 14 TG: @nodpai'
+- name: 'C - 🇸🇬 SG 13 TG: @nodpai'
   network: ws
   port: 8443
   security: tls
@@ -849,7 +856,7 @@ proxies:
     headers:
       Host: 3-93f.pages.dev
     path: /
-- name: 'C - 🇸🇬 SG 15 TG: @nodpai'
+- name: 'C - 🇸🇬 SG 14 TG: @nodpai'
   network: ws
   port: 7228
   security: tls
@@ -862,7 +869,7 @@ proxies:
       Host: snippet.gfw.qzz.io
     path: /danfeng
 - encryption: none
-  name: 'C - 🇸🇬 SG 16 TG: @nodpai'
+  name: 'C - 🇸🇬 SG 15 TG: @nodpai'
   network: ws
   port: 443
   security: tls
@@ -875,23 +882,21 @@ proxies:
     headers:
       Host: snippet.danfeng.rr.kg
     path: /danfeng
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇸🇬 SG 17 TG: @nodpai'
-  network: ws
-  port: 16618
-  server: t.cnmjcn.cyou
-  type: vmess
-  udp: true
-  uuid: 79a6fb0f-e9c2-43c4-b637-d2b5379f1e20
-  ws-headers:
-    Host: b38c9b87b830706798bb6e3580c2207a.mobgslb.tbcache.com
-  ws-opts:
-    headers:
-      Host: b38c9b87b830706798bb6e3580c2207a.mobgslb.tbcache.com
-    path: /
-  ws-path: /
-- name: 'C - 🇸🇬 SG 18 TG: @nodpai'
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'C - 🇸🇬 SG 16 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: A5U40a8jcK1PkFImKdB5vQB5fTbYGQe-kAkB-yXwYD4
+  security: reality
+  server: 83.166.253.89
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  uuid: dc4ce878-b7ac-43f1-856b-a3b8c5ac49d0
+- name: 'C - 🇸🇬 SG 17 TG: @nodpai'
   network: ws
   port: 443
   security: tls
@@ -906,7 +911,7 @@ proxies:
     path: /proxyip=ProxyIP.CMLiussss.net
 - alterId: 0
   cipher: auto
-  name: 'C - 🇸🇬 SG 19 TG: @nodpai'
+  name: 'C - 🇸🇬 SG 18 TG: @nodpai'
   network: ws
   port: 16618
   server: t.cnmjcn.cyou
@@ -916,7 +921,7 @@ proxies:
     headers:
       Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
     path: /
-- name: 'C - 🇸🇬 SG 21 TG: @nodpai'
+- name: 'C - 🇸🇬 SG 20 TG: @nodpai'
   network: ws
   port: 56047
   server: 188.209.141.114
@@ -932,7 +937,14 @@ proxies:
     path: /danfeng
 - alterId: 0
   cipher: auto
-  name: 'C - 🇸🇬 SG 22 TG: @nodpai'
+  name: 'C - 🇸🇬 SG 21 TG: @nodpai'
+  port: 51556
+  server: 103.181.164.145
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇸🇬 SG 23 TG: @nodpai'
   network: ws
   port: 16618
   server: planb.mojcn.com
@@ -943,7 +955,7 @@ proxies:
       Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
     path: /
 - encryption: none
-  name: 'D - 🇸🇬 SG 23 TG: @nodpai'
+  name: 'D - 🇸🇬 SG 24 TG: @nodpai'
   network: ws
   port: 80
   server: 141.193.213.21
@@ -953,21 +965,6 @@ proxies:
     headers:
       Host: free-server.techsonic.ggff.net
     path: /@Tech_Sonic
-- encryption: none
-  name: 'D - 🇸🇬 SG 24 TG: @nodpai'
-  network: ws
-  port: 2096
-  security: tls
-  server: 8.39.125.31
-  servername: tristandeng.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 52f94104-7a84-4342-8bcd-96969eb46cbe
-  ws-opts:
-    headers:
-      Host: tristandeng.cc.cd
-    path: /
 - encryption: none
   name: 'D - 🇸🇬 SG 25 TG: @nodpai'
   network: ws
@@ -982,78 +979,89 @@ proxies:
     headers:
       Host: snippet.danfeng.rr.kg
     path: /danfeng
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 'A - 🇺🇸 US 01 TG: @nodpai'
+  password: a1102edc-f382-4720-99f5-ecc0a74507af
+  port: 60000
+  server: 107.148.225.224
+  skip-cert-verify: true
+  sni: apple.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: a1102edc-f382-4720-99f5-ecc0a74507af
+- name: 'A - 🇺🇸 US 02 TG: @nodpai'
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-017.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-017.fastervpn.world
+  type: hysteria2
+  udp: true
+- client-fingerprint: random
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 'B - 🇺🇸 US 03 TG: @nodpai'
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: NhsyjpnYcDfpRfyX2m47AsoHDX_boKi9e1lKOkFNsgE
+    short-id: '12a73c72'
+  security: reality
+  server: 198.255.96.14
+  servername: login.vk.com
+  tls: true
+  type: vless
+  uuid: c4d69096-4026-4da5-9485-20a3da91cb14
+- name: 'B - 🇺🇸 US 04 TG: @nodpai'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-020.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-020.fastervpn.world
+  tls: true
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 'B - 🇺🇸 US 01 TG: @nodpai'
-  port: 180
-  server: 82.198.246.9
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇺🇸 US 02 TG: @nodpai'
+  name: 'B - 🇺🇸 US 05 TG: @nodpai'
   port: 180
   server: 82.198.246.233
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 'B - 🇺🇸 US 03 TG: @nodpai'
+- down: ''
+  fingerprint: ''
+  name: 'B - 🇺🇸 US 09 TG: @nodpai|1.7MB...'
+  obfs: ''
+  obfs-password: ''
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-001.fastervpn.world
+  port: '443'
+  server: vpn-us-005.fastervpn.world
   skip-cert-verify: true
-  sni: vpn-us-001.fastervpn.world
+  sni: vpn-us-005.fastervpn.world
   type: hysteria2
-- name: 'B - 🇺🇸 US 04 TG: @nodpai'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-006.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-006.fastervpn.world
-  type: hysteria2
-- name: 'B - 🇺🇸 US 05 TG: @nodpai'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-018.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-018.fastervpn.world
-  type: hysteria2
-- encryption: none
-  name: 'B - 🇺🇸 US 07 TG: @nodpai'
-  network: ws
-  port: 80
-  server: 104.18.189.112
-  type: vless
-  uuid: f929cc78-e2a1-4ce3-8051-3e9538405144
-  ws-opts:
-    headers:
-      Host: us.xydcqd.workers.dev
-    path: /@WireXnet?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇺🇸 US 08 TG: @nodpai'
-  port: 180
-  server: 82.198.246.97
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  up: ''
 - encryption: none
   flow: xtls-rprx-vision
-  name: 'B - 🇺🇸 US 09 TG: @nodpai'
-  network: tcp
-  port: 16196
+  name: 'B - 🇺🇸 US 07 TG: @nodpai'
+  port: 26432
   reality-opts:
-    public-key: JZ-wjnzrf0Kr25tKSyDd8-iX4ciruu2bcdnEY8M7aT8
-    short-id: '6ba85179e30d4fc2'
+    public-key: opy6DExNZ8ikbMcX9l11kyxBOYFb6WmkC6R4nrRirUA
+    short-id: 'facce7'
   security: reality
-  server: 38.76.205.24
-  servername: www.mysql.com
+  server: desivps.333009.xyz
+  servername: aws.amazon.com
   tls: true
   type: vless
-  uuid: 6810a725-9f09-4e44-89b1-0db4ad5003d1
-- name: 'B - 🇺🇸 US 10 TG: @nodpai'
+  uuid: 3420808a-9251-4e96-8376-ed505492ae28
+- name: 'B - 🇺🇸 US 08 TG: @nodpai'
   network: ws
   password: '1234567890'
-  port: 8443
-  server: 152.53.227.239
+  port: 443
+  server: 143.20.160.200
   sni: kfm-bn0.pages.dev
   tls: true
   type: trojan
@@ -1061,28 +1069,38 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 'B - 🇺🇸 US 11 TG: @nodpai'
+- name: 'B - 🇺🇸 US 09 TG: @nodpai'
+  password: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
+  port: 8443
+  server: e386c44b-te5ts0-tflsjv-zn8y.isp.cdnkuaishou.com
+  sni: e386c44b-te5ts0-tflsjv-zn8y.isp.cdnkuaishou.com
+  tls: true
+  type: http
+  username: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
+- name: 'B - 🇺🇸 US 10 TG: @nodpai'
   password: f8eca8df-a1a5-4918-a194-d34112a3673f
-  port: 443
-  server: u9node.cdn.mssstatic.com
+  port: 19843
+  server: u10cache.71edgeiqiyi.com
+  sni: u10cache.71edgeiqiyi.com
   tls: true
   type: http
   username: f8eca8df-a1a5-4918-a194-d34112a3673f
+- name: 'C - 🇺🇸 US 11 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 139.59.239.116
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
   name: 'C - 🇺🇸 US 12 TG: @nodpai'
-  network: ws
-  port: 16648
-  server: planb.mojcn.com
-  type: vmess
-  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
-  ws-opts:
-    headers:
-      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇺🇸 US 13 TG: @nodpai'
   network: ws
   port: 16648
   server: m.cnmjin.net
@@ -1096,9 +1114,34 @@ proxies:
       Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
     path: /
   ws-path: /
+- name: 'C - 🇺🇸 US 13 TG: @nodpai'
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 77.110.96.220
+  sni: kfm-bn0.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- name: 'C - 🇺🇸 US 14 TG: @nodpai'
+  network: ws
+  password: '1234567890'
+  port: 2083
+  server: 164.92.243.95
+  skip-cert-verify: true
+  sni: kfm-bn0.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
 - alterId: 0
   cipher: auto
-  name: 'C - 🇺🇸 US 14 TG: @nodpai'
+  name: 'C - 🇺🇸 US 15 TG: @nodpai'
   network: ws
   port: 16648
   server: t.cnmjcn.cyou
@@ -1112,20 +1155,23 @@ proxies:
       Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
     path: /
   ws-path: /
-- name: 'C - 🇺🇸 US 15 TG: @nodpai'
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇺🇸 US 16 TG: @nodpai'
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 65.21.179.149
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
+  port: 16648
+  server: planb.mojcn.com
+  type: vmess
+  udp: true
+  uuid: 881da2de-238e-425e-a7e7-389f4842e545
+  ws-headers:
+    Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'C - 🇺🇸 US 16 TG: @nodpai'
+      Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
+    path: /
+  ws-path: /
+- name: 'C - 🇺🇸 US 17 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
@@ -1138,33 +1184,28 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- encryption: none
-  name: 'C - 🇺🇸 US 17 TG: @nodpai'
-  port: 63768
-  security: tls
-  server: multi4.fresedvpn.site
-  servername: sso.passport.yandex.ru
-  tls: true
-  type: vless
-  uuid: 8134b223-0aad-4f8c-ba37-06f8acfdb392
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 'C - 🇺🇸 US 18 TG: @nodpai'
-  network: tcp
+- name: 'C - 🇺🇸 US 18 TG: @nodpai'
+  network: ws
+  password: '1234567890'
   port: 443
-  reality-opts:
-    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
-    short-id: '6e3f0a5b'
-  security: reality
-  server: us.musicperec.ru
-  servername: ads.x5.ru
-  spider-x: '%25252525252F'
+  server: 202.61.195.167
+  sni: kfm-bn0.pages.dev
   tls: true
-  type: vless
-  uuid: ec9e7b71-72b6-0021-8549-2efb1b21a502
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- alterId: 2
+  cipher: auto
+  name: 'C - 🇺🇸 US 19 TG: @nodpai'
+  port: 30804
+  server: v4.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - encryption: none
   flow: xtls-rprx-vision
-  name: 'C - 🇺🇸 US 19 TG: @nodpai'
+  name: 'C - 🇺🇸 US 20 TG: @nodpai'
   network: tcp
   port: 9443
   reality-opts:
@@ -1177,22 +1218,22 @@ proxies:
   type: vless
   uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
 - encryption: none
-  flow: xtls-rprx-vision
-  name: 'C - 🇺🇸 US 20 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: -ZIDWF9CykNoZYNpO6Vi7BdDyZl_hJUYxuIRmPnuxBk
-    short-id: 'c6118398'
-  security: reality
-  server: rc2.muslimtr.ru
-  servername: gateway.icloud.com
+  name: 'C - 🇺🇸 US 21 TG: @nodpai'
+  network: ws
+  port: 8443
+  security: tls
+  server: 69.63.210.22
+  servername: sni.skylee4.cloudns.ch
   tls: true
   type: vless
-  uuid: 322ffd77-9adc-4e10-8302-a8bcc14555a0
+  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+  ws-opts:
+    headers:
+      Host: sni.skylee4.cloudns.ch
+    path: /proxyip=ProxyIP.CMLiussss.net
 - alterId: 0
   cipher: auto
-  name: 'C - 🇺🇸 US 21 TG: @nodpai'
+  name: 'C - 🇺🇸 US 22 TG: @nodpai'
   network: ws
   port: 16648
   server: t.cnmjcn.cyou
@@ -1206,28 +1247,20 @@ proxies:
       Host: b38c9b87b830706798bb6e3580c2207a.mobgslb.tbcache.com
     path: /
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇺🇸 US 22 TG: @nodpai'
+- encryption: none
+  name: 'C - 🇺🇸 US 23 TG: @nodpai'
   network: ws
-  port: 16648
-  server: m.cnmjin.net
-  type: vmess
-  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
-  ws-opts:
-    headers:
-      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
-    path: /
-- name: 'C - 🇺🇸 US 23 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 172.64.146.1
+  port: 443
+  security: tls
+  server: 188.114.98.0
+  servername: ekhtelal120.mobailfarid4.ir
+  tls: true
   type: vless
-  uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510
+  uuid: 054b9fdb-4ca8-4b2e-9855-c1515c4937c5
   ws-opts:
     headers:
-      Host: frejd.11258.workers.dev
-    path: /telegram🇨🇳@wangcai2/
+      Host: ekhtelal120.mobailfarid4.ir
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 'C - 🇺🇸 US 24 TG: @nodpai'
@@ -1241,34 +1274,17 @@ proxies:
       Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
     path: /
 - encryption: none
-  name: 'C - 🇺🇸 US 25 TG: @nodpai'
+  name: 'D - 🇺🇸 US 25 TG: @nodpai'
   network: ws
-  port: 2053
-  security: tls
-  server: 8.6.112.0
-  servername: hio-awx.pages.dev
-  skip-cert-verify: true
-  tls: true
+  port: 80
+  server: 104.17.150.99
   type: vless
-  uuid: d37a75db-76b6-4db8-b213-0d5b044d138d
+  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
   ws-opts:
     headers:
-      Host: hio-awx.pages.dev
-    path: /fast
+      Host: vip.yaml7.ggff.net
+    path: /
 - name: 'D - 🇺🇸 US 26 TG: @nodpai'
-  network: ws
-  password: '162534'
-  port: 443
-  server: 198.13.37.176
-  skip-cert-verify: true
-  sni: cchh2.pages.dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: cchh2.pages.dev
-    path: /?ed=2560
-- name: 'D - 🇺🇸 US 27 TG: @nodpai'
   network: ws
   password: '162534'
   port: 42841
@@ -1427,208 +1443,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-128-gcm
-  name: 🇸🇬SG_1|1.3MB/s
-  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: aoe.o.eoa.ccwu.cc
-    mode: websocket
-    mux: false
-    path: /?enc\=aes-128-gcm
-    tls: true
-  port: 443
-  server: cf.cloudflare.182682.xyz
-  type: ss
-  udp: true
-- down: ''
-  fingerprint: ''
-  name: 🇺🇸US_1|1.2MB/s|1.0MB/s
-  obfs: ''
-  obfs-password: ''
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: '443'
-  server: vpn-us-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-002.fastervpn.world
-  type: hysteria2
-  up: ''
-- name: 🇫🇷FR_1|1.6MB/s
-  password: dongtaiwang.com
-  port: 40022
-  server: 163.172.113.118
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tfo: false
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇩🇪DE_1|1.1MB/s
-  network: http
-  port: 80
-  server: 77.90.11.178
-  tls: false
-  type: vmess
-  uuid: b3cdfe2d-5eac-4b0d-a8eb-d3f6a647e13f
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK_1|1.4MB/s
-  network: ws
-  port: 16622
-  server: planb.mojcn.com
-  type: vmess
-  udp: true
-  uuid: 881da2de-238e-425e-a7e7-389f4842e545
-  ws-headers:
-    Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
-  ws-opts:
-    headers:
-      Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
-    path: /
-  ws-path: /
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 🇺🇸 美国 | USA|1.3MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-004.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-004.fastervpn.world
-  type: hysteria2
-  udp: true
-- client-fingerprint: random
-  name: 🇭🇰HK_2|1.4MB/s
-  network: ws
-  port: 443
-  server: 68.64.183.162
-  servername: 002.trevely.de5.net
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: b2b87b16-d1a1-448d-832c-70229a13b314
-  ws-opts:
-    headers:
-      Host: 002.trevely.de5.net
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 🇸🇬SG_2|1.7MB/s
-  network: ws
-  port: 443
-  server: ct.877774.xyz
-  servername: do-sgp1.862400.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3ae99729-5326-4f70-937d-fcdc6910f9c7
-  ws-opts:
-    headers:
-      Host: do-sgp1.862400.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.79 Safari/537.36
-    path: /announcement?ed=2048
-  xudp: true
-- cipher: aes-128-gcm
-  name: 🇯🇵JP_2|1.5MB/s
-  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: aoe.o.eoa.ccwu.cc
-    mode: websocket
-    mux: false
-    path: /?enc\=aes-128-gcm
-    tls: true
-  port: 2083
-  server: 54.199.22.197
-  type: ss
-  udp: true
-- name: 🇰🇷KR_1|1.1MB/s
-  network: ws
-  password: '1234567890'
-  port: '30303'
-  server: 211.197.101.56
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 🇰🇷KR_2|1.0MB/s
-  network: ws
-  password: '1234567890'
-  port: '10035'
-  server: 175.197.105.20
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/45.0.2454.93 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 🇰🇷KR_3|1.5MB/s
-  network: ws
-  password: '1234567890'
-  port: '10443'
-  server: 121.175.77.73
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- encryption: none
-  name: 🇨🇭CH_1|1012KB/s
-  network: ws
-  port: '30047'
-  server: 138.124.32.188
-  type: vless
-  udp: true
-  uuid: 595ae3f9-5a91-4eaa-82a3-28a221cf8f7f
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-        Slackware/Chrome/12.0.742.100 Safari/534.30
-    path: ''
-  xudp: true
-- auth: dongtaiwang.com
-  name: 🇫🇷FR_2|1.1MB/s
-  password: dongtaiwang.com
-  port: 41283
-  ports: 40022,41000-42000
-  server: 163.172.113.118
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: hysteria2
-  udp: true
-- flow: xtls-rprx-vision
-  name: 🇺🇸US_1|1.4MB/s
-  network: tcp
-  port: 26432
-  reality-opts:
-    public-key: opy6DExNZ8ikbMcX9l11kyxBOYFb6WmkC6R4nrRirUA
-    short-id: 'facce7'
-  server: 92.118.228.109
-  servername: aws.amazon.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3420808a-9251-4e96-8376-ed505492ae28
-  xudp: true
-- name: 🇸🇬SG_3|1.0MB/s
+- name: 🇸🇬SG_1|2.8MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2096
@@ -1639,130 +1454,332 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /tr
-- name: 🏁 未知-0453A371|1.8MB/s
+- down: ''
+  fingerprint: ''
+  name: 🇺🇸US_1|1.2MB/s|1.0MB/s|1.1MB/s
+  obfs: ''
+  obfs-password: ''
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: '443'
+  server: vpn-us-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-002.fastervpn.world
+  type: hysteria2
+  up: ''
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_1|1.4MB/s
+  port: 180
+  server: 82.198.246.9
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK_1|1.0MB/s
+  network: ws
+  port: 16622
+  server: m.cnmjin.net
+  type: vmess
+  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
+  ws-opts:
+    headers:
+      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
+    path: /
+- cipher: aes-128-gcm
+  name: 🇯🇵JP_1|4.6MB/s
+  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: aoe.o.eoa.ccwu.cc
+    mode: websocket
+    mux: false
+    path: /?enc\=aes-128-gcm
+    tls: true
   port: 443
-  server: vpn-us-003.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-003.fastervpn.world
-  type: hysteria2
-- name: 🇳🇱NL_1|2.2MB/s
-  obfs: salamander
-  obfs-password: CvxXZnSth1bVJKGFP2cof4rI52ifHJ2W
-  password: rstnnl:7ltZBmta4ahLenTIoywBy3R1Z1PV7ZGf
-  port: 8932
-  server: nrealistic.nn-foto.ru
-  skip-cert-verify: true
-  sni: nrealistic.nn-foto.ru
-  tfo: false
-  type: hysteria2
-- name: 🇩🇪DE_2|1.8MB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 12855
-  server: 83.243.86.103
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tfo: false
-  type: hysteria2
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_3|1.1MB/s
-  network: tcp
-  port: 52006
-  server: 178.72.181.87
-  servername: cluster-de-2.firstvideocdn.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  server: jp.111000.cc.cd
+  type: ss
   udp: true
-  uuid: 75807638-6f19-01f4-ae08-38492ee85c88
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|1.0MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Ufkz__Q3m_d8NFR08OVtXx3hLaV4-x7UesrVKduEIn0
-  server: srv80.towersflowerss.com
-  servername: srv80.towersflowerss.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36d85d65-1b57-4cba-a2a6-f61131b08593
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 🇰🇷KR_4|2.6MB/s
-  network: tcp
-  port: 19001
-  reality-opts:
-    public-key: UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM
-  server: 61.111.247.147
-  servername: addons.mozilla.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6eeb820e-89ef-4b60-9060-ddcaea0580f0
-  xudp: true
-- encryption: none
-  name: 🇩🇪DE_4|1.1MB/s
-  network: xhttp
-  port: 22443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: '31'
-  server: 45.15.147.22
-  servername: s3.yandex.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c603d9a2-a89a-4b62-ac96-346d3b52620c
-  xhttp-opts:
-    mode: stream-one
-    path: /assets/v2/pkg
-  xudp: true
 - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 🇰🇷KR_5|2.0MB/s
+  name: 🇬🇧GB_1|1.1MB/s
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: vpn-kr-003.fastervpn.world
+  server: vpn-uk-002.fastervpn.world
   skip-cert-verify: true
-  sni: vpn-kr-003.fastervpn.world
+  sni: vpn-uk-002.fastervpn.world
   type: hysteria2
-- name: 🇰🇷KR_6|1.5MB/s
+  udp: true
+- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  name: 🇬🇧 英国 | GBR 5|2.0MB/s
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: vpn-kr-001.fastervpn.world
+  server: vpn-uk-001.fastervpn.world
   skip-cert-verify: true
-  sni: vpn-kr-001.fastervpn.world
+  sni: vpn-uk-001.fastervpn.world
+  type: hysteria2
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇯🇵JP_2|1.2MB/s
+  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: aoe.o.eoa.ccwu.cc
+    mode: websocket
+    mux: false
+    path: /?enc\=aes-128-gcm
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: fn.130519.xyz
+  type: ss
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 🇯🇵JP_3|1.1MB/s
+  network: ws
+  port: 443
+  server: 54.150.83.221
+  servername: ynwta9.api-edge.fgfw.qzz.io
+  skip-cert-verify: false
   tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: ynwta9.api-edge.fgfw.qzz.io
+    path: /danfeng?ed=2560
+- name: 🇸🇬SG_3|1.6MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: '2096'
+  server: 172.64.149.54
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/45.0.2454.85 Safari/537.36
+    path: /tr
+- name: 🇸🇬SG_4|3.0MB/s
+  network: ws
+  port: 2053
+  server: 172.64.147.87
+  servername: tristandeng.cc.cd
+  tls: true
+  type: vless
+  uuid: 52f94104-7a84-4342-8bcd-96969eb46cbe
+  ws-opts:
+    headers:
+      Host: tristandeng.cc.cd
+    path: /%2F
+- name: 🇺🇸US_4|2.1MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-001.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-001.fastervpn.world
   type: hysteria2
+- name: 🇫🇷FR_1|1.9MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-fr-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-fr-002.fastervpn.world
+  type: hysteria2
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 🇺🇸 美国-9FC1C193|1.4MB/s
+  network: ws
+  port: 39738
+  server: 38.244.5.139
+  servername: ynwta9.api-edge.fgfw.qzz.io
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: ynwta9.api-edge.fgfw.qzz.io
+    max-early-data: 2560
+    path: /danfeng
+- encryption: none
+  grpc-opts:
+    grpc-service-name: secure
+  name: 🇩🇪DE_1|1.5MB/s
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: A4j57sDAA97uICmt2HhAW7PWMaV39gE6jy_VokhmI1k
+    short-id: '7c08356a875ff541'
+  server: 64.188.91.223
+  servername: germany3.nbbconnect.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1becdc51-1b1a-4fb5-bbfb-06433b3f9dec
+  xudp: true
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 🇯🇵JP_4|1.3MB/s
+  network: ws
+  port: 443
+  server: 5.34.222.227
+  servername: ynwta9.api-edge.fgfw.qzz.io
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: ynwta9.api-edge.fgfw.qzz.io
+    max-early-data: 2560
+    path: /danfeng
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 🇯🇵JP_5|1.0MB/s
+  network: ws
+  port: 443
+  server: 151.242.164.33
+  servername: ynwta9.api-edge.fgfw.qzz.io
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: ynwta9.api-edge.fgfw.qzz.io
+    max-early-data: 2560
+    path: /danfeng
+- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  name: 🇦🇺AU_1|2.0MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-au-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-au-002.fastervpn.world
+  type: hysteria2
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 🇯🇵JP_6|1.8MB/s
+  network: ws
+  port: 443
+  server: 38.226.195.129
+  servername: ynwta9.api-edge.fgfw.qzz.io
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: ynwta9.api-edge.fgfw.qzz.io
+    max-early-data: 2560
+    path: /danfeng
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 🇰🇷KR_1|1.1MB/s
+  network: ws
+  port: 31337
+  server: 175.206.85.140
+  servername: ynwta9.api-edge.fgfw.qzz.io
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: ynwta9.api-edge.fgfw.qzz.io
+    max-early-data: 2560
+    path: /danfeng
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_6|1.7MB/s
+  network: raw
+  port: '180'
+  server: 82.198.246.9
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
 - encryption: none
   flow: xtls-rprx-vision
   http-opts:
     headers: {}
     path:
     - /
-  name: 🇷🇺RU_2|1.7MB/s
+  name: 🇷🇺RU_1|1.3MB/s
   network: tcp
   port: '52006'
-  server: 82.202.249.248
-  servername: cluster-russia-3.firstvideocdn.ru
+  server: 82.202.249.3
+  servername: cluster-russia-1.firstvideocdn.ru
   tls: true
   type: vless
   udp: true
   uuid: 75807638-6f19-07d0-ae08-38492ee85c88
   xudp: true
-- flow: xtls-rprx-vision
+- alterId: '0'
+  cipher: auto
+  name: 🇳🇱NL_2|1.2MB/s
+  network: raw
+  port: '30830'
+  server: v30.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- encryption: none
+  name: 🇰🇷KR_2|1.1MB/s
+  network: ws
+  port: '12292'
+  server: 59.2.28.80
+  servername: egt0bxw23s9tw4imuffg-m.zrf.xx.kg
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: egt0bxw23s9tw4imuffg-m.zrf.xx.kg
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /@Marisa_kristi
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
   http-opts:
     headers: {}
     path:
     - /
-  name: 🇰🇷KR_7|1.2MB/s
+  name: 🇰🇷KR_3|1.3MB/s
   network: tcp
   port: '19001'
   reality-opts:
@@ -1773,55 +1790,52 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 6eeb820e-89ef-4b60-9060-ddcaea0580f0
+  uuid: 455fc271-3ee2-493b-8c75-9324b4851e2f
   xudp: true
-- name: AE_speednode_0001
+- name: AT_speednode_0001
   network: ws
+  password: '1234567890'
   port: 443
-  server: 188.64.142.13
-  servername: sni.111000.v6.rocks
+  server: 152.53.119.132
   skip-cert-verify: false
-  tls: true
-  type: vless
+  sni: kfm-bn0.pages.dev
+  type: trojan
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
+      Host: kfm-bn0.pages.dev
+    path: /
 - name: AT_speednode_0002
   network: ws
+  password: '1234567890'
   port: 443
-  server: 212.113.119.194
-  servername: sni.111000.v6.rocks
+  server: 152.53.228.86
   skip-cert-verify: false
-  tls: true
-  type: vless
+  sni: kfm-bn0.pages.dev
+  type: trojan
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.v6.rocks
+      Host: kfm-bn0.pages.dev
     path: /?ed=2560
 - name: AT_speednode_0003
   network: ws
+  password: '1234567890'
   port: 443
-  server: 212.113.106.4
-  servername: sni.111000.v6.rocks
+  server: 152.53.118.28
   skip-cert-verify: false
-  tls: true
-  type: vless
+  sni: kfm-bn0.pages.dev
+  type: trojan
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.v6.rocks
+      Host: kfm-bn0.pages.dev
     path: /?ed=2560
 - name: AT_speednode_0004
   network: ws
   password: '1234567890'
   port: 443
-  server: 152.53.119.132
+  server: 152.53.118.28
   skip-cert-verify: false
   sni: kfm-bn0.pages.dev
   type: trojan
@@ -1845,33 +1859,44 @@ proxies:
     path: /?ed=2560
 - name: AU_speednode_0006
   network: ws
+  password: '1234567890'
   port: 443
-  server: 82.117.84.161
-  servername: sni.111000.v6.rocks
+  server: 103.109.234.64
   skip-cert-verify: false
-  tls: true
-  type: vless
+  sni: kfm-bn0.pages.dev
+  type: trojan
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: BE_speednode_0007
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: AU_speednode_0007
   network: ws
+  password: '1234567890'
   port: 443
-  server: 150.251.152.40
-  servername: sni.111000.v6.rocks
+  server: 103.109.234.64
   skip-cert-verify: false
-  tls: true
-  type: vless
+  sni: kfm-bn0.pages.dev
+  type: trojan
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.v6.rocks
+      Host: kfm-bn0.pages.dev
     path: /?ed=2560
 - name: BG_speednode_0008
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 94.156.114.13
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: BG_speednode_0009
   network: ws
   password: '1234567890'
   port: 443
@@ -1883,8 +1908,21 @@ proxies:
   ws-opts:
     headers:
       Host: kfm-bn0.pages.dev
+    path: /
+- name: BG_speednode_0010
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 94.156.114.13
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: BG_speednode_0009
+- name: BG_speednode_0011
   network: ws
   password: '1234567890'
   port: 443
@@ -1896,471 +1934,12 @@ proxies:
   ws-opts:
     headers:
       Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: CA_speednode_0010
-  network: ws
-  port: 2053
-  server: 37.143.129.102
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: CA_speednode_0011
-  network: ws
-  port: 2053
-  server: 23.173.104.207
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: CA_speednode_0012
-  network: ws
-  port: 2053
-  server: 23.173.104.226
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: CA_speednode_0013
-  network: ws
-  port: 2053
-  server: 23.173.104.204
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: CA_speednode_0014
-  network: ws
-  port: 2053
-  server: 23.173.104.212
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: CA_speednode_0015
-  network: ws
-  port: 2053
-  server: 23.173.104.205
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: CA_speednode_0016
-  network: ws
-  port: 2053
-  server: 23.173.104.225
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: CA_speednode_0017
-  network: ws
-  port: 2053
-  server: 23.173.104.222
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: CA_speednode_0018
-  network: ws
-  port: 443
-  server: 68.183.207.130
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: CA_speednode_0019
-  network: ws
-  port: 2053
-  server: 23.173.104.237
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: CA_speednode_0020
-  network: ws
-  port: 2053
-  server: 23.173.104.236
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: CA_speednode_0021
-  network: ws
-  port: 2053
-  server: 23.173.104.214
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: CA_speednode_0022
-  network: ws
-  port: 2053
-  server: 23.173.104.213
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: CA_speednode_0023
-  network: ws
-  port: 2053
-  server: 23.173.104.234
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: CA_speednode_0024
-  network: ws
-  port: 2053
-  server: 23.173.104.228
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: CA_speednode_0025
-  network: ws
-  port: 2053
-  server: 23.173.104.202
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: CA_speednode_0026
-  network: ws
-  port: 2053
-  server: 23.173.104.229
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: CA_speednode_0027
-  network: ws
-  port: 2053
-  server: 23.173.104.217
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: CA_speednode_0028
-  network: ws
-  port: 2053
-  server: 23.173.104.194
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: CA_speednode_0029
-  network: ws
-  port: 443
-  server: 23.173.104.194
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: CA_speednode_0030
-  network: ws
-  port: 2053
-  server: 23.173.104.206
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: CA_speednode_0031
-  network: ws
-  port: 2053
-  server: 23.173.104.239
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: CA_speednode_0032
-  network: ws
-  port: 443
-  server: 23.173.104.205
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: CA_speednode_0033
-  network: ws
-  port: 2053
-  server: 23.173.104.233
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: CA_speednode_0034
-  network: ws
-  port: 2053
-  server: 23.173.104.216
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: CA_speednode_0035
-  network: ws
-  port: 2053
-  server: 23.173.104.224
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: CA_speednode_0036
-  network: ws
-  port: 2053
-  server: 23.173.104.231
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: CA_speednode_0037
-  network: ws
-  port: 2053
-  server: 23.173.104.203
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: CA_speednode_0038
-  network: ws
-  port: 2053
-  server: 23.173.104.215
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: CA_speednode_0039
-  network: ws
-  port: 2053
-  server: 23.173.104.201
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: CH_speednode_0040
+    path: /
+- name: CH_speednode_0012
   network: ws
   password: '1234567890'
   port: 443
-  server: 138.124.32.121
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: CH_speednode_0041
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 138.124.28.173
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: CH_speednode_0042
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 138.124.32.120
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: CH_speednode_0043
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 138.124.28.173
+  server: 138.124.28.78
   skip-cert-verify: false
   sni: kfm-bn0.pages.dev
   type: trojan
@@ -2369,7 +1948,20 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /
-- name: CH_speednode_0044
+- name: CH_speednode_0013
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 138.124.28.173
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: CH_speednode_0014
   network: ws
   password: '1234567890'
   port: 443
@@ -2382,20 +1974,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: CH_speednode_0045
-  network: ws
-  password: '1234567890'
-  port: 8443
-  server: 138.124.87.163
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: CH_speednode_0046
+- name: CH_speednode_0015
   network: ws
   password: '1234567890'
   port: 443
@@ -2408,25 +1987,49 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: CH_speednode_0047
+- name: CH_speednode_0016
   network: ws
+  password: '1234567890'
   port: 443
-  server: 138.124.32.78
-  servername: sni.latonyamadeline.ndjp.net
+  server: 138.124.32.0
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: CH_speednode_0017
+  port: 45886
+  reality-opts:
+    public-key: zJeLZDPHoHMcAzBJh38tSavofNlkBrpADFx9jVVPil0
+    short-id: '94f9'
+  server: 5.182.36.56
+  servername: yahoo.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-    path: /?ed=2560
-- name: CH_speednode_0048
+  uuid: 8338171d-2ea7-4015-bdea-492f3d5d4e60
+- name: CH_speednode_0018
   network: ws
   password: '1234567890'
   port: 443
-  server: 138.124.32.78
+  server: 138.124.28.173
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: CH_speednode_0019
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 138.124.49.137
   skip-cert-verify: false
   sni: kfm-bn0.pages.dev
   type: trojan
@@ -2435,7 +2038,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: CH_speednode_0049
+- name: CH_speednode_0020
   network: ws
   password: '1234567890'
   port: 443
@@ -2447,8 +2050,8 @@ proxies:
   ws-opts:
     headers:
       Host: kfm-bn0.pages.dev
-    path: /
-- name: CH_speednode_0050
+    path: /?ed=2560
+- name: CH_speednode_0021
   network: ws
   password: '1234567890'
   port: 443
@@ -2461,7 +2064,85 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /
-- name: CZ_speednode_0052
+- name: CH_speednode_0022
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 138.124.34.36
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: CH_speednode_0023
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 138.124.230.45
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: CH_speednode_0024
+  network: ws
+  password: '1234567890'
+  port: 8443
+  server: 138.124.87.163
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: CH_speednode_0025
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 138.124.240.36
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: CZ_speednode_0029
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 95.85.232.148
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: CZ_speednode_0030
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 95.85.233.44
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: CZ_speednode_0031
   network: ws
   password: '1234567890'
   port: 443
@@ -2474,20 +2155,20 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- flow: xtls-rprx-vision
-  name: CZ_speednode_0053
+- name: CZ_speednode_0032
+  network: ws
+  password: '1234567890'
   port: 443
-  reality-opts:
-    public-key: cKzljSufhp_TTVyy85qjeByAHzTJZB2SHxKFjHaZHwA
-    short-id: '2e'
-  server: 95.85.237.26
-  servername: vk.com
+  server: 95.85.234.43
   skip-cert-verify: false
-  tls: true
-  type: vless
+  sni: kfm-bn0.pages.dev
+  type: trojan
   udp: true
-  uuid: fc5ffd42-ebad-4466-ba56-c8865680f4f2
-- name: CZ_speednode_0054
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: CZ_speednode_0033
   network: ws
   password: '1234567890'
   port: 443
@@ -2500,7 +2181,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: CZ_speednode_0055
+- name: CZ_speednode_0034
   network: ws
   password: '1234567890'
   port: 443
@@ -2513,49 +2194,33 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: CZ_speednode_0056
-  network: ws
+- flow: xtls-rprx-vision
+  name: DE_speednode_0035
   port: 443
-  server: 95.85.233.224
-  servername: sni.latonyamadeline.ndjp.net
+  reality-opts:
+    public-key: fN3l3mYSDO44IWNPHWOQo2JMUw2isUGoOqrS6hCFfBQ
+    short-id: 'd1f93724859d75ac'
+  server: pl2-gws4.onnstreaming.ru
+  servername: pl2-gws4.onnstreaming.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-    path: /?ed=2560
-- name: CZ_speednode_0057
+  uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396
+- name: DE_speednode_0036
   network: ws
+  password: '1234567890'
   port: 443
-  server: 194.87.89.41
-  servername: sni.111000.v6.rocks
+  server: 193.23.218.192
   skip-cert-verify: false
-  tls: true
-  type: vless
+  sni: kfm-bn0.pages.dev
+  type: trojan
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: DE_speednode_0058
-  network: ws
-  port: 8443
-  server: 193.23.219.205
-  servername: sni.latonyamadeline.ndjp.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-    path: /?ed=2560
-- name: DE_speednode_0059
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: DE_speednode_0037
   network: ws
   password: '1234567890'
   port: 443
@@ -2568,52 +2233,11 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- flow: xtls-rprx-vision
-  name: DE_speednode_0060
-  port: 443
-  reality-opts:
-    public-key: fN3l3mYSDO44IWNPHWOQo2JMUw2isUGoOqrS6hCFfBQ
-    short-id: 'd1f93724859d75ac'
-  server: pl2-gws4.onnstreaming.ru
-  servername: pl2-gws4.onnstreaming.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396
-- name: DE_speednode_0061
-  network: ws
-  port: 443
-  server: 193.23.200.38
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: DE_speednode_0062
-  network: ws
-  port: 44406
-  server: 194.107.126.20
-  servername: sni.latonyamadeline.ndjp.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-    path: /?ed=2560
-- name: DE_speednode_0063
+- name: DE_speednode_0038
   network: ws
   password: '1234567890'
   port: 443
-  server: 87.251.88.215
+  server: 185.219.84.221
   skip-cert-verify: false
   sni: kfm-bn0.pages.dev
   type: trojan
@@ -2622,20 +2246,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: DE_speednode_0064
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 185.65.202.222
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: DE_speednode_0065
+- name: DE_speednode_0039
   network: ws
   password: '1234567890'
   port: 443
@@ -2648,7 +2259,73 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: DK_speednode_0066
+- name: DE_speednode_0040
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 202.61.195.167
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: DE_speednode_0041
+  network: ws
+  password: '1234567890'
+  port: 8443
+  server: 194.164.198.156
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: DE_speednode_0042
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 185.219.84.221
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: DE_speednode_0043
+  network: ws
+  password: '1234567890'
+  port: 2053
+  server: 202.61.226.121
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: DE_speednode_0044
+  network: ws
+  port: 443
+  server: srv190.towersflowerss.com
+  servername: srv190.towersflowerss.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 36d85d65-1b57-4cba-a2a6-f61131b08593
+  ws-opts:
+    headers:
+      Host: srv190.towersflowerss.com
+    path: /
+- name: DK_speednode_0045
   network: ws
   password: '1234567890'
   port: 443
@@ -2661,76 +2338,33 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- flow: xtls-rprx-vision
-  name: DK_speednode_0067
-  port: 9443
-  reality-opts:
-    public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
-    short-id: '2344766a270a6298'
-  server: 159.195.82.187
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
-- name: ES_speednode_0068
+- name: DK_speednode_0046
   network: ws
+  password: '1234567890'
   port: 443
-  server: 194.48.143.131
-  servername: sni.111000.v6.rocks
+  server: 159.195.5.181
   skip-cert-verify: false
-  tls: true
-  type: vless
+  sni: kfm-bn0.pages.dev
+  type: trojan
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: ES_speednode_0069
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: DK_speednode_0047
   network: ws
+  password: '1234567890'
   port: 443
-  server: 194.124.210.128
-  servername: sni.111000.v6.rocks
+  server: 159.195.44.151
   skip-cert-verify: false
-  tls: true
-  type: vless
+  sni: kfm-bn0.pages.dev
+  type: trojan
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.v6.rocks
+      Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: ES_speednode_0070
-  network: ws
-  port: 443
-  server: 194.48.140.149
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: ES_speednode_0071
-  network: ws
-  port: 443
-  server: 194.48.143.25
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: FI_speednode_0072
+- name: FI_speednode_0048
   network: ws
   password: '1234567890'
   port: 443
@@ -2743,11 +2377,11 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: GB_speednode_0079
+- name: FI_speednode_0049
   network: ws
   password: '1234567890'
   port: 443
-  server: 82.21.117.137
+  server: 94.141.123.243
   skip-cert-verify: false
   sni: kfm-bn0.pages.dev
   type: trojan
@@ -2755,8 +2389,8 @@ proxies:
   ws-opts:
     headers:
       Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: GB_speednode_0080
+    path: /
+- name: GB_speednode_0052
   network: ws
   password: '1234567890'
   port: 443
@@ -2769,25 +2403,11 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: GB_speednode_0081
-  network: ws
-  port: 443
-  server: 68.168.31.169
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: GB_speednode_0082
+- name: GB_speednode_0055
   network: ws
   password: '1234567890'
-  port: 8443
-  server: 2.27.120.108
+  port: 443
+  server: 148.253.210.141
   skip-cert-verify: false
   sni: kfm-bn0.pages.dev
   type: trojan
@@ -2795,22 +2415,8 @@ proxies:
   ws-opts:
     headers:
       Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: GB_speednode_0084
-  network: ws
-  port: 443
-  server: 91.108.242.85
-  servername: sni.latonyamadeline.ndjp.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-    path: /?ed=2560
-- name: GB_speednode_0085
+    path: /
+- name: GB_speednode_0056
   network: ws
   password: '1234567890'
   port: 443
@@ -2823,11 +2429,11 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: GB_speednode_0087
+- name: GB_speednode_0058
   network: ws
   password: '1234567890'
-  port: 443
-  server: 148.253.215.61
+  port: 8443
+  server: 2.27.35.199
   skip-cert-verify: false
   sni: kfm-bn0.pages.dev
   type: trojan
@@ -2836,35 +2442,20 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: GB_speednode_0088
+- name: GB_speednode_0059
   network: ws
+  password: '1234567890'
   port: 443
-  server: 91.193.58.74
-  servername: sni.111000.v6.rocks
+  server: 77.239.127.77
   skip-cert-verify: false
-  tls: true
-  type: vless
+  sni: kfm-bn0.pages.dev
+  type: trojan
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: GB_speednode_0089
-  network: ws
-  port: 443
-  server: 91.193.58.49
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: GB_speednode_0090
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: GB_speednode_0060
   network: ws
   password: '1234567890'
   port: 8443
@@ -2877,160 +2468,85 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: GB_speednode_0091
+- name: GB_speednode_0061
   network: ws
+  password: '1234567890'
   port: 443
-  server: 91.193.58.246
-  servername: sni.111000.v6.rocks
+  server: 148.253.215.61
   skip-cert-verify: false
-  tls: true
-  type: vless
+  sni: kfm-bn0.pages.dev
+  type: trojan
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.v6.rocks
+      Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: GB_speednode_0092
+- name: GB_speednode_0062
   network: ws
+  password: '1234567890'
   port: 443
-  server: 91.193.58.200
-  servername: sni.111000.v6.rocks
+  server: 148.253.215.61
   skip-cert-verify: false
-  tls: true
-  type: vless
+  sni: kfm-bn0.pages.dev
+  type: trojan
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: GB_speednode_0093
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: GB_speednode_0063
   network: ws
-  port: 443
-  server: 45.43.79.225
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: GB_speednode_0094
-  network: ws
-  port: 443
-  server: 45.43.79.130
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: GB_speednode_0095
-  network: ws
-  port: 443
-  server: 148.253.211.49
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: GB_speednode_0096
-  network: ws
-  port: 443
-  server: 91.193.58.247
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: HK_speednode_0097
-  network: ws
+  password: '1234567890'
   port: 8443
-  server: 47.90.8.168
-  servername: sni.111000.v6.rocks
+  server: 185.170.153.115
   skip-cert-verify: false
-  tls: true
-  type: vless
+  sni: kfm-bn0.pages.dev
+  type: trojan
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
+      Host: kfm-bn0.pages.dev
+    path: /
 - flow: xtls-rprx-vision
-  name: HK_speednode_0098
+  name: GB_speednode_0064
   port: 443
   reality-opts:
-    public-key: _t05V9DbgwyxSJOgRBhWYHt8d4Xt-qFfUXONotbUnCE
-    short-id: 'f37fb7531c60780d'
-  server: polands.stardevs.top
-  servername: polands.stardevs.top
+    public-key: xzCEjrybgdtiyOYNKgEAEWzHjvsE2Pkj198_Ch1gZ2U
+    short-id: '41427aa565e28984'
+  server: 86.54.82.239
+  servername: store.steampowered.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f00984ef-f57e-41db-9182-b25f7bc3a1e2
-- name: HK_speednode_0099
+  uuid: 43488128-319e-f480-64ea-0acdc712e2a8
+- name: IQ_speednode_0066
   network: ws
+  password: '1234567890'
   port: 443
-  server: 91.186.219.15
-  servername: sni.111000.v6.rocks
+  server: 178.17.48.170
   skip-cert-verify: false
-  tls: true
-  type: vless
+  sni: kfm-bn0.pages.dev
+  type: trojan
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: IN_speednode_0100
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: IQ_speednode_0067
   network: ws
+  password: '1234567890'
   port: 443
-  server: 103.71.23.247
-  servername: sni.111000.v6.rocks
+  server: 178.17.48.170
   skip-cert-verify: false
-  tls: true
-  type: vless
+  sni: kfm-bn0.pages.dev
+  type: trojan
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.v6.rocks
+      Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: IN_speednode_0101
-  network: ws
-  port: 443
-  server: 103.71.22.186
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: IQ_speednode_0102
+- name: IQ_speednode_0068
   network: ws
   password: '1234567890'
   port: 443
@@ -3043,7 +2559,20 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: IR_speednode_0103
+- name: IR_speednode_0069
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 213.176.78.192
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: IR_speednode_0070
   network: ws
   password: '1234567890'
   port: 443
@@ -3056,7 +2585,20 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: IR_speednode_0104
+- name: IR_speednode_0071
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 213.176.77.30
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: IR_speednode_0072
   network: ws
   password: '1234567890'
   port: 443
@@ -3068,87 +2610,21 @@ proxies:
   ws-opts:
     headers:
       Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: IR_speednode_0105
-  network: ws
-  port: 8443
-  server: 62.60.153.66
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
+    path: /
+- name: KR_speednode_0073
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: KR_speednode_0107
-  port: 1090
-  server: 121.169.46.116
-  type: socks5
-  udp: true
-- name: KR_speednode_0108
-  network: ws
-  port: 58337
-  server: 152.67.211.114
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: LB_speednode_0109
-  network: ws
-  port: 443
-  server: 213.165.37.101
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: LB_speednode_0110
-  network: ws
-  port: 443
-  server: 77.110.97.237
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: LB_speednode_0111
-  network: ws
-  port: 443
-  server: 213.165.38.161
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: LB_speednode_0112
+  username: test
+- name: KR_speednode_0074
   network: ws
   password: '1234567890'
-  port: 2053
-  server: 213.165.39.142
+  port: 25448
+  server: 118.41.26.148
   skip-cert-verify: false
   sni: kfm-bn0.pages.dev
   type: trojan
@@ -3157,77 +2633,162 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: LV_speednode_0113
+- name: KR_speednode_0075
   network: ws
-  port: 8443
-  server: 213.21.222.70
-  servername: sni.111000.v6.rocks
+  password: '1234567890'
+  port: 11965
+  server: 14.45.224.171
   skip-cert-verify: false
-  tls: true
-  type: vless
+  sni: kfm-bn0.pages.dev
+  type: trojan
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.v6.rocks
+      Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: LV_speednode_0114
+- name: KR_speednode_0076
   network: ws
+  password: '1234567890'
+  port: 30303
+  server: 220.76.161.128
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: KR_speednode_0077
+  network: ws
+  password: '1234567890'
+  port: 19530
+  server: 222.116.195.135
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: KR_speednode_0078
+  network: ws
+  password: '1234567890'
+  port: 10035
+  server: 175.197.105.20
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: KR_speednode_0079
+  network: ws
+  password: '1234567890'
+  port: 30017
+  server: 220.122.102.26
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: KR_speednode_0080
+  network: ws
+  password: '1234567890'
+  port: 13486
+  server: 220.122.15.78
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: KR_speednode_0081
+  network: ws
+  password: '1234567890'
+  port: 50001
+  server: 220.127.68.28
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: KR_speednode_0082
+  network: ws
+  password: '1234567890'
+  port: 23424
+  server: 220.125.240.77
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: KR_speednode_0083
+  network: ws
+  password: '1234567890'
+  port: 28017
+  server: 49.142.200.31
+  skip-cert-verify: true
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: LB_speednode_0084
+  network: ws
+  password: '1234567890'
   port: 443
-  server: 46.32.186.85
-  servername: sni.111000.v6.rocks
+  server: 77.110.116.7
   skip-cert-verify: false
-  tls: true
-  type: vless
+  sni: kfm-bn0.pages.dev
+  type: trojan
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.v6.rocks
+      Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: LV_speednode_0115
-  network: ws
+- flow: xtls-rprx-vision
+  name: RO_speednode_0085
   port: 443
-  server: 46.32.185.152
-  servername: sni.111000.v6.rocks
+  reality-opts:
+    public-key: kkRsTNjRh_XrrTM6eZllllldzoL5Z9IqlBkDtmYLMhw
+    short-id: 'c906f73d3ba8211f'
+  server: 91.199.50.37
+  servername: www.alibaba.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: NL_speednode_0116
-  network: ws
-  port: 2053
-  server: 146.19.84.236
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: NL_speednode_0117
-  network: ws
+  uuid: 43488128-319e-f480-64ea-0acdc712e2a8
+- flow: xtls-rprx-vision
+  name: RU_speednode_0086
   port: 443
-  server: 217.144.185.221
-  servername: sni.111000.v6.rocks
+  reality-opts:
+    public-key: Ufkz__Q3m_d8NFR08OVtXx3hLaV4-x7UesrVKduEIn0
+  server: srv80.towersflowerss.com
+  servername: srv80.towersflowerss.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: RU_speednode_0118
+  uuid: 36d85d65-1b57-4cba-a2a6-f61131b08593
+- name: RU_speednode_0087
   network: ws
   password: '1234567890'
   port: 2053
@@ -3240,67 +2801,11 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: RU_speednode_0119
-  network: ws
-  port: 443
-  server: 85.192.27.113
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: RU_speednode_0120
-  network: ws
-  port: 2053
-  server: 176.125.240.63
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: RU_speednode_0121
-  network: ws
-  port: 2053
-  server: 176.125.240.147
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: RU_speednode_0122
-  network: ws
-  port: 443
-  server: 193.232.178.176
-  servername: sni.latonyamadeline.ndjp.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-    path: /?ed=2560
-- name: SC_speednode_0123
+- name: RU_speednode_0088
   network: ws
   password: '1234567890'
-  port: 443
-  server: 45.9.116.160
+  port: 2053
+  server: 89.169.9.177
   skip-cert-verify: false
   sni: kfm-bn0.pages.dev
   type: trojan
@@ -3308,8 +2813,8 @@ proxies:
   ws-opts:
     headers:
       Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: SC_speednode_0124
+    path: /
+- name: SC_speednode_0089
   network: ws
   password: '1234567890'
   port: 443
@@ -3322,11 +2827,11 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: SE_speednode_0125
+- name: SC_speednode_0090
   network: ws
   password: '1234567890'
   port: 443
-  server: 194.87.77.2
+  server: 80.253.249.66
   skip-cert-verify: false
   sni: kfm-bn0.pages.dev
   type: trojan
@@ -3334,8 +2839,21 @@ proxies:
   ws-opts:
     headers:
       Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: SE_speednode_0126
+    path: /
+- flow: xtls-rprx-vision
+  name: SC_speednode_0091
+  port: 7443
+  reality-opts:
+    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+    short-id: 'be0ce047'
+  server: 195.66.27.165
+  servername: chat.deepseek.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: caa3af29-3b04-4099-9772-c64a1b7cca34
+- name: SE_speednode_0092
   network: ws
   password: '1234567890'
   port: 443
@@ -3348,7 +2866,20 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: SE_speednode_0127
+- name: SE_speednode_0093
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 194.87.77.91
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: SE_speednode_0094
   network: ws
   password: '1234567890'
   port: 443
@@ -3360,138 +2891,12 @@ proxies:
   ws-opts:
     headers:
       Host: kfm-bn0.pages.dev
-    path: /
-- name: SE_speednode_0128
-  network: ws
-  port: 2053
-  server: 46.226.164.44
-  servername: sni.latonyamadeline.ndjp.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
     path: /?ed=2560
-- name: SG_speednode_0129
-  network: ws
-  port: 443
-  server: 8.223.63.189
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: SG_speednode_0130
-  network: ws
-  port: 443
-  server: 83.147.252.92
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: SG_speednode_0131
-  network: ws
-  port: 443
-  server: 83.147.252.227
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: SG_speednode_0132
-  network: ws
-  port: 443
-  server: 83.147.254.14
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: SG_speednode_0133
-  network: ws
-  port: 443
-  server: 83.147.254.238
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: SI_speednode_0134
-  network: ws
-  port: 443
-  server: 45.144.52.100
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: SI_speednode_0135
-  network: ws
-  port: 443
-  server: 45.144.52.69
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: TR_speednode_0136
-  port: 443
-  reality-opts:
-    public-key: LaGTRJ1CJnnYV7FnyqQnU28I0xFTPFKI8xmUFwig5ic
-    short-id: 'c410508e9721512b'
-  server: mouse2.1lil1.de
-  servername: www.stackoverflow.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: bcc094e4-1a85-8a25-f8e1-5b08b9af841c
-- name: US_speednode_0137
+- name: SE_speednode_0095
   network: ws
   password: '1234567890'
-  port: 8443
-  server: 95.164.123.131
+  port: 443
+  server: 109.120.134.104
   skip-cert-verify: false
   sni: kfm-bn0.pages.dev
   type: trojan
@@ -3500,46 +2905,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: US_speednode_0138
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 144.31.118.170
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: US_speednode_0139
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 64.188.70.233
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: US_speednode_0140
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 144.31.116.8
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: US_speednode_0142
+- name: US_speednode_0097
   network: ws
   password: '1234567890'
   port: 443
@@ -3552,19 +2918,7 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: US_speednode_0143
-  port: 443
-  reality-opts:
-    public-key: A1OvYDljz8ZJr7_1xe4j2H1AHsMuYEKifyjdWhdybzk
-    short-id: '11e2'
-  server: 216.57.105.74
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 73c0a723-c0ab-4ad8-8f25-799b9bd54e36
-- name: US_speednode_0144
+- name: US_speednode_0099
   network: ws
   password: '1234567890'
   port: 443
@@ -3577,11 +2931,11 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: US_speednode_0145
+- name: US_speednode_0100
   network: ws
   password: '1234567890'
   port: 443
-  server: 64.188.70.233
+  server: 144.31.116.8
   skip-cert-verify: false
   sni: kfm-bn0.pages.dev
   type: trojan
@@ -3589,8 +2943,21 @@ proxies:
   ws-opts:
     headers:
       Host: kfm-bn0.pages.dev
-    path: /
-- name: US_speednode_0146
+    path: /?ed=2560
+- name: US_speednode_0101
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 144.31.118.170
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: US_speednode_0102
   network: ws
   password: '1234567890'
   port: 443
@@ -3603,81 +2970,11 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /
-- name: US_speednode_0147
-  network: ws
-  port: 443
-  server: 44.32.224.207
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: US_speednode_0148
-  network: ws
-  port: 443
-  server: 64.188.73.248
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: US_speednode_0149
-  network: ws
-  port: 443
-  server: 144.31.19.131
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: US_speednode_0150
-  network: ws
-  port: 2053
-  server: 44.32.224.198
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: US_speednode_0151
-  network: ws
-  port: 443
-  server: 144.31.132.176
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: US_speednode_0152
+- name: US_speednode_0103
   network: ws
   password: '1234567890'
   port: 443
-  server: 144.31.98.216
+  server: 64.188.70.233
   skip-cert-verify: false
   sni: kfm-bn0.pages.dev
   type: trojan
@@ -3685,96 +2982,12 @@ proxies:
   ws-opts:
     headers:
       Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: US_speednode_0153
-  network: ws
-  port: 443
-  server: 44.32.224.196
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: US_speednode_0154
-  network: ws
-  port: 443
-  server: 44.32.224.197
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: US_speednode_0155
-  network: ws
-  port: 2053
-  server: 44.32.224.208
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: US_speednode_0156
-  network: ws
-  port: 443
-  server: 144.31.116.136
-  servername: sni.latonyamadeline.ndjp.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
     path: /
-- name: US_speednode_0157
-  network: ws
-  port: 443
-  server: 144.31.7.95
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: US_speednode_0158
-  network: ws
-  port: 443
-  server: 83.219.97.178
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: US_speednode_0159
+- name: US_speednode_0104
   network: ws
   password: '1234567890'
   port: 443
-  server: 144.31.216.160
+  server: 64.188.70.233
   skip-cert-verify: false
   sni: kfm-bn0.pages.dev
   type: trojan
@@ -3783,48 +2996,19 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: US_speednode_0160
-  network: ws
-  password: '1234567890'
+- name: US_speednode_0105
   port: 443
-  server: 144.31.218.10
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: US_speednode_0161
-  network: ws
-  port: 2053
-  server: 44.32.224.207
-  servername: sni.111000.v6.rocks
+  reality-opts:
+    public-key: A1OvYDljz8ZJr7_1xe4j2H1AHsMuYEKifyjdWhdybzk
+    short-id: '11e2'
+  server: 216.57.105.74
+  servername: yahoo.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: US_speednode_0162
-  network: ws
-  port: 443
-  server: 44.32.224.195
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: US_speednode_0163
+  uuid: 73c0a723-c0ab-4ad8-8f25-799b9bd54e36
+- name: US_speednode_0107
   network: ws
   password: '1234567890'
   port: 443
@@ -3837,11 +3021,11 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: US_speednode_0164
+- name: US_speednode_0108
   network: ws
   password: '1234567890'
-  port: 8443
-  server: 144.31.213.59
+  port: 443
+  server: 144.31.216.160
   skip-cert-verify: false
   sni: kfm-bn0.pages.dev
   type: trojan
@@ -3850,7 +3034,151 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: US_speednode_0165
+- name: US_speednode_0109
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 144.31.218.10
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: US_speednode_0110
+  network: ws
+  port: 8880
+  server: 192.200.160.50
+  servername: vms.lifetime43.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime43.workers.dev
+    path: /?ed=2560
+- name: US_speednode_0111
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 64.188.118.193
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- flow: xtls-rprx-vision
+  name: US_speednode_0112
+  port: 16196
+  reality-opts:
+    public-key: JZ-wjnzrf0Kr25tKSyDd8-iX4ciruu2bcdnEY8M7aT8
+    short-id: '6ba85179e30d4fc2'
+  server: 38.76.205.24
+  servername: www.mysql.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6810a725-9f09-4e44-89b1-0db4ad5003d1
+- flow: xtls-rprx-vision
+  name: US_speednode_0113
+  port: 26432
+  reality-opts:
+    public-key: opy6DExNZ8ikbMcX9l11kyxBOYFb6WmkC6R4nrRirUA
+    short-id: 'facce7'
+  server: 92.118.228.109
+  servername: aws.amazon.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3420808a-9251-4e96-8376-ed505492ae28
+- name: US_speednode_0114
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 144.31.85.72
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: US_speednode_0115
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 64.188.89.147
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: US_speednode_0116
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 144.31.116.8
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: US_speednode_0117
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 144.31.139.103
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: US_speednode_0118
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 64.188.105.7
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: US_speednode_0119
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 144.31.138.127
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: US_speednode_0120
   network: ws
   password: '1234567890'
   port: 443
@@ -3863,87 +3191,94 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: US_speednode_0166
-  network: ws
+- flow: xtls-rprx-vision
+  name: US_speednode_0121
   port: 443
-  server: 169.40.4.32
-  servername: sni.111000.v6.rocks
+  reality-opts:
+    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
+    short-id: '6e3f0a5b'
+  server: us.musicperec.ru
+  servername: ads.x5.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: ec9e7b71-72b6-0021-8549-2efb1b21a502
+- name: US_speednode_0122
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 144.31.216.160
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: US_speednode_0167
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: US_speednode_0123
   network: ws
+  password: '1234567890'
+  port: 443
+  server: 64.188.115.82
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- flow: xtls-rprx-vision
+  name: US_speednode_0124
+  port: 443
+  reality-opts:
+    public-key: NOhuaiHfc8Tv7VrFKnNgr-VN594kxtUCslNEBhySvXQ
+    short-id: 'aa69f619e4414362'
+  server: 150.241.103.74
+  servername: st-2.globalcache.onnstreaming.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396
+- name: US_speednode_0125
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 144.31.188.6
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: US_speednode_0126
+  network: ws
+  password: '1234567890'
   port: 8443
-  server: 169.40.2.93
-  servername: sni.111000.v6.rocks
+  server: 64.188.89.147
   skip-cert-verify: false
-  tls: true
-  type: vless
+  sni: kfm-bn0.pages.dev
+  type: trojan
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.v6.rocks
+      Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- name: US_speednode_0168
+- name: US_speednode_0127
   network: ws
+  password: '1234567890'
   port: 443
-  server: 169.40.1.34
-  servername: sni.111000.v6.rocks
+  server: 104.128.139.68
   skip-cert-verify: false
-  tls: true
-  type: vless
+  sni: kfm-bn0.pages.dev
+  type: trojan
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: VG_speednode_0169
-  network: ws
-  port: 443
-  server: 46.243.6.25
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: VG_speednode_0170
-  network: ws
-  port: 443
-  server: 46.243.1.164
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: VG_speednode_0171
-  network: ws
-  port: 443
-  server: 46.243.1.9
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
+      Host: kfm-bn0.pages.dev
+    path: /
