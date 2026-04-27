@@ -1,180 +1,158 @@
 proxies:
-- encryption: none
-  name: 'B - 🇯🇵 JP 02 TG: @nodpai'
-  network: ws
-  port: 31934
-  server: 211.184.99.67
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: ji52i2alvx8ntcpgjev.acg.xx.kg
-    path: /@Marisa_kristisecurity=tls
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇯🇵 JP 07 TG: @nodpai'
-  network: ws
-  port: 16617
-  server: m.cnmjin.net
-  type: vmess
-  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
-  ws-opts:
-    headers:
-      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇯🇵 JP 11 TG: @nodpai'
-  network: ws
-  port: 16617
-  server: t.cnmjcn.cyou
-  type: vmess
-  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
-  ws-opts:
-    headers:
-      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
-    path: /
-- name: 'B - 🇯🇵 JP 15 TG: @nodpai'
-  password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
-  port: 443
-  server: ea4b51c1-te5ts0-tir0zk-1hpo0.jp.oshuawei.com
-  sni: ea4b51c1-te5ts0-tir0zk-1hpo0.jp.oshuawei.com
-  tls: true
-  type: http
-  username: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
-- name: 'B - 🇯🇵 JP 18 TG: @nodpai'
-  password: c870fe5a-0729-11f0-8cf9-f23c93136cb3
-  port: 3235
-  server: ffb0709d-te7og0-tgp57k-ddgs.fourtwo.cdnbytescm.com
-  tls: true
-  type: http
-  username: c870fe5a-0729-11f0-8cf9-f23c93136cb3
-- name: 'C - 🇯🇵 JP 20 TG: @nodpai'
+- name: 'A - 🇯🇵 JP 01 TG: @nodpai'
+  password: d4ab51e4-4dc7-4394-9db2-bd6779586fef
+  port: 1443
+  server: jp.mjhy2.com
+  skip-cert-verify: true
+  sni: jp.mjhy2.com
+  type: hysteria2
+- name: 'A - 🇯🇵 JP 02 TG: @nodpai'
+  password: 87b04f1c-cd5f-43b0-a385-e9712f7a3db5
+  port: 1443
+  server: jp.mjhy2.com
+  skip-cert-verify: true
+  sni: jp.mjhy2.com
+  type: hysteria2
+- client-fingerprint: chrome
+  metadata:
+    cleanName: 韩国3
+    flag: 🇰🇷
+    multiplier: 1
+    originalName: 韩国3
+    region: 韩国
+    tags: []
+  name: 'B - 🇯🇵 JP 05 TG: @nodpai'
   network: ws
   port: 30016
+  server: 175.199.174.127
+  servername: bhq1ycsdvygkrbqmvi8.myto.ip-ddns.com
+  sni: bhq1ycsdvygkrbqmvi8.myto.ip-ddns.com
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: bhq1ycsdvygkrbqmvi8.myto.ip-ddns.com
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  encryption: none
+  name: 'B - 🇯🇵 JP 09 TG: @nodpai'
+  network: ws
+  port: 37173
   security: tls
-  server: 110.35.234.200
-  servername: rcv3tz9brscasef8i.sate.qzz.io
+  server: 14.35.236.28
+  servername: 8a005khup3.mesa.ip-ddns.com
+  skip-cert-verify: true
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: rcv3tz9brscasef8i.sate.qzz.io
+      Host: 8a005khup3.mesa.ip-ddns.com
     path: /@Marisa_kristi
-- name: 'C - 🇯🇵 JP 22 TG: @nodpai'
-  password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
-  port: 443
-  server: b318ac53-te7og0-tfmrui-duku.jp4.oshuawei.com
-  sni: b318ac53-te7og0-tfmrui-duku.jp4.oshuawei.com
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: 'B - 🇯🇵 JP 11 TG: @nodpai'
+  network: http
+  port: 58051
+  server: 103.127.243.55
+  tls: false
+  type: vmess
+  uuid: 8e5b521a-4a56-4bd7-baf1-bfcdf55d6cf1
+- name: 'B - 🇯🇵 JP 14 TG: @nodpai'
+  network: ws
+  port: 25242
+  server: 47.79.144.103
+  type: vless
+  uuid: a12b0d31-f599-498e-b76e-8558a14b766b
+  ws-opts:
+    path: /a12b0d31
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇯🇵 JP 18 TG: @nodpai'
+  port: 30806
+  server: v6.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 'C - 🇯🇵 JP 23 TG: @nodpai'
+  password: f8eca8df-a1a5-4918-a194-d34112a3673f
+  port: 7443
+  server: jc7U654714155239.asia.steamliveonline.com
   tls: true
   type: http
-  username: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
-- encryption: none
-  name: 'C - 🇯🇵 JP 23 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 138.249.20.76
-  servername: hzhz85123803.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: b82777cd-13e8-456c-8e0e-5dd2bb5d3d5c
-  ws-opts:
-    headers:
-      Host: hzhz85123803.dpdns.org
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- encryption: none
+  username: f8eca8df-a1a5-4918-a194-d34112a3673f
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
   name: 'C - 🇯🇵 JP 24 TG: @nodpai'
-  network: ws
-  port: 8443
-  security: tls
-  server: 212.192.6.219
-  servername: hzhz85123803.dpdns.org
-  skip-cert-verify: true
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: womLcq5g8thRDQPccDVdPXQSuKz3mEvuEUzG3LyEPxA
+    short-id: '!!str aa67370a5e1799e9'
+  security: reality
+  server: tyo.ascella.network
+  servername: tyo.ascella.network
   tls: true
   type: vless
-  uuid: b82777cd-13e8-456c-8e0e-5dd2bb5d3d5c
-  ws-opts:
-    headers:
-      Host: hzhz85123803.dpdns.org
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- encryption: none
+  uuid: fe3aa825-5f53-4312-b448-de07d3717f52
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
   name: 'C - 🇯🇵 JP 25 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 62.3.12.185
-  servername: hzhz85123803.dpdns.org
-  skip-cert-verify: true
+  network: tcp
+  port: 10015
+  reality-opts:
+    public-key: ztkgMx5vPZzZ9dsMrBCASxmSxGTGXhVGr4lzetOLXzY
+    short-id: '!!str 8aeee2b431241722'
+  server: sufe.cn9.eu
+  servername: m.media-amazon.com
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: b82777cd-13e8-456c-8e0e-5dd2bb5d3d5c
-  ws-opts:
-    headers:
-      Host: hzhz85123803.dpdns.org
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- encryption: none
+  udp: true
+  uuid: 992af1b9-8494-4d6e-8d41-4cf1a20ea618
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
   name: 'C - 🇯🇵 JP 26 TG: @nodpai'
-  network: ws
+  network: tcp
+  port: 10015
+  reality-opts:
+    public-key: ztkgMx5vPZzZ9dsMrBCASxmSxGTGXhVGr4lzetOLXzY
+    short-id: '!!str 8aeee2b431241722'
+  security: reality
+  server: 43.161.220.24
+  servername: m.media-amazon.com
+  tls: true
+  type: vless
+  uuid: 992af1b9-8494-4d6e-8d41-4cf1a20ea618
+- name: 'C - 🇯🇵 JP 27 TG: @nodpai'
+  password: f8eca8df-a1a5-4918-a194-d34112a3673f
   port: 443
-  security: tls
-  server: 198.105.123.25
-  servername: hzhz85123803.dpdns.org
-  skip-cert-verify: true
+  server: jpfileU654714155239.harmonyoscloudcdn.com
+  tls: true
+  type: http
+  username: f8eca8df-a1a5-4918-a194-d34112a3673f
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 'D - 🇯🇵 JP 28 TG: @nodpai'
+  network: tcp
+  port: 10015
+  reality-opts:
+    public-key: ztkgMx5vPZzZ9dsMrBCASxmSxGTGXhVGr4lzetOLXzY
+    short-id: '!!str 8aeee2b431241722'
+  security: reality
+  server: 43.161.229.219
+  servername: m.media-amazon.com
   tls: true
   type: vless
-  uuid: b82777cd-13e8-456c-8e0e-5dd2bb5d3d5c
-  ws-opts:
-    headers:
-      Host: hzhz85123803.dpdns.org
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- encryption: none
-  name: 'C - 🇯🇵 JP 27 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 138.124.107.124
-  servername: hzhz85123803.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: b82777cd-13e8-456c-8e0e-5dd2bb5d3d5c
-  ws-opts:
-    headers:
-      Host: hzhz85123803.dpdns.org
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- encryption: none
-  name: 'C - 🇯🇵 JP 28 TG: @nodpai'
-  network: ws
-  port: 2053
-  security: tls
-  server: 188.132.192.190
-  servername: hzhz85123803.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: b82777cd-13e8-456c-8e0e-5dd2bb5d3d5c
-  ws-opts:
-    headers:
-      Host: hzhz85123803.dpdns.org
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- encryption: none
-  name: 'C - 🇯🇵 JP 29 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 138.124.107.132
-  servername: hzhz85123803.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: b82777cd-13e8-456c-8e0e-5dd2bb5d3d5c
-  ws-opts:
-    headers:
-      Host: hzhz85123803.dpdns.org
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+  uuid: 992af1b9-8494-4d6e-8d41-4cf1a20ea618
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

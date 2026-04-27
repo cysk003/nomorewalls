@@ -1,7 +1,73 @@
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
+  ech: cloudflare-ech.com https://dns.alidns.com/dns-query
+  encryption: none
   name: 'A - 🇹🇼 TW 01 TG: @nodpai'
+  network: ws
+  port: 25565
+  security: tls
+  server: 112.163.56.80
+  servername: tptpss.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: tptpss.pages.dev
+    path: /https://203.69.23.34:443
+- client-fingerprint: chrome
+  ech: cloudflare-ech.com https://dns.alidns.com/dns-query
+  encryption: none
+  name: 'B - 🇹🇼 TW 02 TG: @nodpai'
+  network: ws
+  port: 10443
+  security: tls
+  server: 112.170.171.170
+  servername: tptpss.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: tptpss.pages.dev
+    path: /https://203.69.23.34:443
+- alterId: 0
+  cipher: auto
+  client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇹🇼 TW 03 TG: @nodpai'
+  network: tcp
+  port: 32323
+  reality-opts:
+    public-key: C0E3DB6EdxOUUTQtd-0BYZjpPayyyE6h4d-DOrzHxUs
+    short-id: '!!str 8522'
+  server: ncgdbgp.gdsxrk.com
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3c09e9a5-3522-46fd-a8ef-06346f8ad40c
+- client-fingerprint: chrome
+  ech: cloudflare-ech.com https://dns.alidns.com/dns-query
+  encryption: none
+  name: 'B - 🇹🇼 TW 04 TG: @nodpai'
+  network: ws
+  port: 35342
+  security: tls
+  server: 115.21.253.43
+  servername: tptpss.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: tptpss.pages.dev
+    path: /https://203.69.23.34:443
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'B - 🇹🇼 TW 05 TG: @nodpai'
   port: 12507
   server: gtmaws.zfym.online
   servername: live.bilibili.com
@@ -10,18 +76,8 @@ proxies:
   type: vless
   udp: true
   uuid: 344caaec-e3ce-4113-ab72-db2b59f9b5c4
-- name: 'B - 🇹🇼 TW 02 TG: @nodpai'
-  obfs: ''
-  obfs-password: ''
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-tw-001.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-tw-001.fastervpn.world
-  type: hysteria2
-  udp: true
-- flow: xtls-rprx-vision-udp443
-  name: 'B - 🇹🇼 TW 03 TG: @nodpai'
+- flow: xtls-rprx-vision-udp443-udp443
+  name: 'B - 🇹🇼 TW 06 TG: @nodpai'
   port: 443
   security: tls
   server: taipei1.ap221.com
@@ -30,38 +86,177 @@ proxies:
   type: vless
   uuid: c71ab922-2c35-4f6e-abfe-4950658f7bce
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 'B - 🇹🇼 TW 04 TG: @nodpai'
-  port: 11788
-  server: gtmaws.zfym.online
-  servername: live.bilibili.com
-  skip-cert-verify: true
+  name: 'B - 🇹🇼 TW 07 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: UtL1fZqK9sl2QQaS03BQnfYBAnH760eJ_4YzSR9RniM
+    short-id: '!!str 601a08ef'
+  security: reality
+  server: kbgs.hinet.tw1.yydjc.top
+  servername: s0.awsstatic.com
   tls: true
   type: vless
-  udp: true
-  uuid: 344caaec-e3ce-4113-ab72-db2b59f9b5c4
-- name: 'B - 🇹🇼 TW 05 TG: @nodpai'
+  uuid: 4749475d-3a47-4175-a934-92e247127ed7
+- client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  name: 'B - 🇹🇼 TW 08 TG: @nodpai'
   network: ws
-  port: 13579
-  server: 112.171.78.221
+  port: 11444
+  security: tls
+  server: 222.103.177.64
   servername: tptpss.pages.dev
+  tls: true
   type: vless
   uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
   ws-opts:
     headers:
       Host: tptpss.pages.dev
-    path: /https://203.69.23.34:443fp=chromesecurity=tls
-- encryption: none
-  name: 'C - 🇹🇼 TW 06 TG: @nodpai'
+    path: /https://203.69.23.34:443
+- client-fingerprint: chrome
+  ech: cloudflare-ech.com https://dns.alidns.com/dns-query
+  encryption: none
+  name: 'B - 🇹🇼 TW 09 TG: @nodpai'
   network: ws
-  port: 18081
+  port: 10002
   security: tls
-  server: 60.248.139.106
-  servername: 2026.hhhhh.eu.org
+  server: 211.199.27.72
+  servername: tptpss.pages.dev
   tls: true
   type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
   ws-opts:
     headers:
-      Host: 2026.hhhhh.eu.org
-    path: /60.248.139.106:18081
+      Host: tptpss.pages.dev
+    path: /https://203.69.23.34:443
+- client-fingerprint: chrome
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  encryption: none
+  name: 'B - 🇹🇼 TW 10 TG: @nodpai'
+  network: ws
+  port: 33890
+  security: tls
+  server: 112.163.209.76
+  servername: tptpss.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: tptpss.pages.dev
+    path: /https://203.69.23.34:443
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇹🇼 TW 11 TG: @nodpai'
+  network: ws
+  port: 16616
+  server: planb.mojcn.com
+  type: vmess
+  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
+  ws-opts:
+    headers:
+      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
+    path: /
+- client-fingerprint: chrome
+  ech: cloudflare-ech.com https://dns.alidns.com/dns-query
+  encryption: none
+  name: 'C - 🇹🇼 TW 12 TG: @nodpai'
+  network: ws
+  port: 20880
+  security: tls
+  server: 183.107.78.213
+  servername: tptpss.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: tptpss.pages.dev
+    path: /https://203.69.23.34:443
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇹🇼 TW 13 TG: @nodpai'
+  network: ws
+  port: 16616
+  server: m.cnmjin.net
+  type: vmess
+  udp: true
+  uuid: 87b04f1c-cd5f-43b0-a385-e9712f7a3db5
+  ws-headers:
+    Host: c4459e1e5ab171d4aecf29bb98f5e420.mobgslb.tbcache.com
+  ws-opts:
+    headers:
+      Host: c4459e1e5ab171d4aecf29bb98f5e420.mobgslb.tbcache.com
+    path: /
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇹🇼 TW 14 TG: @nodpai'
+  network: ws
+  port: 16616
+  server: t.cnmjcn.cyou
+  type: vmess
+  udp: true
+  uuid: 87b04f1c-cd5f-43b0-a385-e9712f7a3db5
+  ws-headers:
+    Host: c4459e1e5ab171d4aecf29bb98f5e420.mobgslb.tbcache.com
+  ws-opts:
+    headers:
+      Host: c4459e1e5ab171d4aecf29bb98f5e420.mobgslb.tbcache.com
+    path: /
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇹🇼 TW 15 TG: @nodpai'
+  network: ws
+  port: 16616
+  server: t.cnmjcn.cyou
+  type: vmess
+  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
+  ws-opts:
+    headers:
+      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇹🇼 TW 16 TG: @nodpai'
+  network: ws
+  port: 16616
+  server: m.cnmjin.net
+  type: vmess
+  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
+  ws-opts:
+    headers:
+      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇹🇼 TW 17 TG: @nodpai'
+  network: ws
+  port: 16616
+  server: planb.mojcn.com
+  type: vmess
+  udp: true
+  uuid: 87b04f1c-cd5f-43b0-a385-e9712f7a3db5
+  ws-headers:
+    Host: c4459e1e5ab171d4aecf29bb98f5e420.mobgslb.tbcache.com
+  ws-opts:
+    headers:
+      Host: c4459e1e5ab171d4aecf29bb98f5e420.mobgslb.tbcache.com
+    path: /
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇹🇼 TW 18 TG: @nodpai'
+  network: ws
+  port: 16616
+  server: t.cnmjcn.cyou
+  type: vmess
+  uuid: f091e44a-daee-4782-a910-d699a0c1145f
+  ws-opts:
+    headers:
+      Host: 9ca5d7234ca908eb0cefe9fdb6d61d35.mobgslb.tbcache.com
+    path: /
