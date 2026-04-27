@@ -1,25 +1,32 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  http-opts:
-    method: GET
-    path:
-    - /ABCDE
-  name: 'B - 🇯🇵 JP 11 TG: @nodpai'
-  network: http
-  port: 58051
-  server: 103.127.243.55
-  tls: false
+  name: 'B - 🇯🇵 JP 27 TG: @nodpai'
+  network: ws
+  port: 16617
+  server: t.cnmjcn.cyou
   type: vmess
-  uuid: 8e5b521a-4a56-4bd7-baf1-bfcdf55d6cf1
-- alterId: 2
+  udp: true
+  uuid: 87b04f1c-cd5f-43b0-a385-e9712f7a3db5
+  ws-headers:
+    Host: c4459e1e5ab171d4aecf29bb98f5e420.mobgslb.tbcache.com
+  ws-opts:
+    headers:
+      Host: c4459e1e5ab171d4aecf29bb98f5e420.mobgslb.tbcache.com
+    path: /
+  ws-path: /
+- alterId: 0
   cipher: auto
-  name: 'B - 🇯🇵 JP 18 TG: @nodpai'
-  port: 30806
-  server: v6.hdacd.com
+  name: 'C - 🇯🇵 JP 31 TG: @nodpai'
+  network: ws
+  port: 16617
+  server: t.cnmjcn.cyou
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: f091e44a-daee-4782-a910-d699a0c1145f
+  ws-opts:
+    headers:
+      Host: 9ca5d7234ca908eb0cefe9fdb6d61d35.mobgslb.tbcache.com
+    path: /
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -45,21 +52,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - cipher: aes-128-gcm
-  name: 🇯🇵JP_1|1.7MB/s|2.5MB/s
-  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: aoe.o.eoa.ccwu.cc
-    mode: websocket
-    mux: false
-    path: /?enc\=aes-128-gcm
-    tls: true
-  port: 443
-  server: jp.111000.cc.cd
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 🇯🇵JP_1|1.3MB/s
+  name: 🇯🇵JP_1|2.5MB/s
   password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
   plugin: v2ray-plugin
   plugin-opts:
@@ -72,17 +65,31 @@ proxies:
   port: 443
   server: yg2.ygkkk.dpdns.org
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵JP_2|1.5MB/s
-  network: ws
-  port: 16617
-  server: t.cnmjcn.cyou
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: f091e44a-daee-4782-a910-d699a0c1145f
-  ws-opts:
-    headers:
-      Host: 9ca5d7234ca908eb0cefe9fdb6d61d35.mobgslb.tbcache.com
-    path: /
+- cipher: aes-128-gcm
+  name: 🇯🇵JP_2|3.1MB/s
+  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: aoe.o.eoa.ccwu.cc
+    mode: websocket
+    mux: false
+    path: /?enc\=aes-128-gcm
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: cf.tencentapp.cn
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇯🇵JP_3|2.1MB/s
+  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: aoe.o.eoa.ccwu.cc
+    mode: websocket
+    mux: false
+    path: /?enc\=aes-128-gcm
+    tls: true
+  port: 443
+  server: freeyx.cloudflare88.eu.org
+  type: ss
+  udp: true
