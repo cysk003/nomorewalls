@@ -105,11 +105,14 @@ proxies:
   uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
 - alterId: 0
   cipher: auto
-  name: 'B - 🇭🇰 HK 08 TG: @nodpai'
+  name: 🇭🇰HK_1|1.8MB/s
   network: ws
   port: 16632
   server: planb.mojcn.com
+  skip-cert-verify: false
+  tls: false
   type: vmess
+  udp: true
   uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
   ws-opts:
     headers:
@@ -117,10 +120,22 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 'C - 🇭🇰 HK 15 TG: @nodpai'
+  name: 'B - 🇭🇰 HK 08 TG: @nodpai'
   network: ws
-  port: 16632
-  server: t.cnmjcn.cyou
+  port: 20010
+  server: 76c3.earthdraft.onezz.top
+  type: vmess
+  uuid: 7d81d7ed-03f4-331a-ab0d-e9a7425f05e0
+  ws-opts:
+    headers:
+      Host: ithome.com
+    path: /chat
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇭🇰 HK 13 TG: @nodpai'
+  network: ws
+  port: 16622
+  server: m.cnmjin.net
   type: vmess
   uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
   ws-opts:
@@ -151,36 +166,53 @@ proxies:
     headers:
       Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
     path: /
-- name: 'B - 🇺🇸 US 09 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 93.152.207.163
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
-  name: 'C - 🇺🇸 US 21 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 11 TG: @nodpai'
   network: ws
-  port: 16648
-  server: planb.mojcn.com
+  port: 16617
+  server: t.cnmjcn.cyou
   type: vmess
   uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
   ws-opts:
     headers:
       Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
     path: /
-- name: 'C - 🇺🇸 US 23 TG: @nodpai'
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬SG_3|2.4MB/s
+  network: ws
+  port: 16618
+  server: planb.mojcn.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
+  ws-opts:
+    headers:
+      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇸🇬 SG 26 TG: @nodpai'
+  port: 51556
+  server: 103.181.164.145
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇺🇸 US 03 TG: @nodpai'
+  port: 180
+  server: 82.198.246.233
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 'C - 🇺🇸 US 19 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 185.102.136.201
+  port: 4196
+  server: 185.184.223.138
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -189,13 +221,19 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'C - 🇺🇸 US 36 TG: @nodpai'
-  password: 8r%3C%5B9%27l6hAO%238ZQi
+- name: 'C - 🇺🇸 US 28 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
   port: 8443
-  server: 95.85.245.152
+  server: 217.11.167.62
+  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -317,8 +355,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  name: 🇳🇱NL_1|1.0MB/s
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 51.15.17.169
+  type: ss
 - cipher: aes-128-gcm
-  name: 🇯🇵JP_1|1.7MB/s
+  name: 🇯🇵JP_1|1.7MB/s|2.5MB/s
   password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
   plugin: v2ray-plugin
   plugin-opts:
@@ -332,44 +376,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 🇯🇵JP_2|1.2MB/s
-  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: aoe.o.eoa.ccwu.cc
-    mode: websocket
-    mux: false
-    path: /?enc\=aes-128-gcm
-    tls: true
-  port: 443
-  server: freeyx.cloudflare88.eu.org
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_4|1.1MB/s
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: aes-128-gcm
-  name: 🇯🇵JP_3|1.7MB/s
-  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: aoe.o.eoa.ccwu.cc
-    mode: websocket
-    mux: false
-    path: /?enc\=aes-128-gcm
-    tls: true
-  port: 443
-  server: cdn.31514926.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 🇸🇬SG_1|1.1MB/s
+  name: 🇸🇬SG_1|1.9MB/s
   password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
   plugin: v2ray-plugin
   plugin-opts:
@@ -382,54 +389,53 @@ proxies:
   server: cmcc.090227.xyz
   type: ss
   udp: true
-- name: 🇩🇪DE_1|1.5MB/s
+- name: IQ_speednode_0066
   network: ws
   password: '1234567890'
-  port: '443'
-  server: 144.31.98.216
+  port: 443
+  server: 178.17.48.170
   skip-cert-verify: false
   sni: kfm-bn0.pages.dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: 🇰🇷KR_1|1.0MB/s
+  network: ws
+  password: '1234567890'
+  port: '22335'
+  server: 222.121.232.215
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 🇩🇪DE_2|1.0MB/s
+- name: 🇰🇷KR_2|1.1MB/s
   network: ws
   password: '1234567890'
-  port: '443'
-  server: 91.107.220.103
+  port: '10002'
+  server: 121.128.161.235
   skip-cert-verify: false
   sni: kfm-bn0.pages.dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 🇩🇪DE_3|1.3MB/s
-  network: ws
-  password: '1234567890'
-  port: '443'
-  server: 152.53.236.205
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.67 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7
+        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
 - alterId: '0'
   cipher: auto
-  name: 🇺🇸US_6|1.2MB/s
+  name: 🇺🇸US_1|1.8MB/s
   network: tcp
   port: '180'
-  server: 82.198.246.233
+  server: 82.198.246.37
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -438,52 +444,141 @@ proxies:
   xudp: true
 - alterId: '0'
   cipher: auto
-  name: 🇺🇸US_7|1016KB/s
+  name: 🇺🇸US_2|1.6MB/s
   network: tcp
-  port: 180
-  server: 82.198.246.9
+  port: '180'
+  server: 82.198.246.214
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
-- name: 🇩🇪DE_7|1.9MB/s
+- name: 🇩🇪DE_2|1.1MB/s
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: '2096'
-  server: 104.20.6.134
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
+  password: '1234567890'
+  port: 443
+  server: 138.124.32.121
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
-    path: /tr
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 🇺🇸US_10|1.0MB/s
-  network: tcp
-  port: 10920
-  server: 156.236.76.85
-  skip-cert-verify: true
+  name: 🇫🇷FR_1|1.2MB/s
+  network: ws
+  port: 16645
+  server: planb.mojcn.com
   tls: false
   type: vmess
   udp: true
-  uuid: 0902d6db-11d9-4d5d-e260-116796ecd58c
+  uuid: 87b04f1c-cd5f-43b0-a385-e9712f7a3db5
+  ws-opts:
+    headers:
+      Host: c4459e1e5ab171d4aecf29bb98f5e420.mobgslb.tbcache.com
+    path: '%2F'
 - alterId: 0
   cipher: auto
-  name: 🇺🇸US_12|2.0MB/s
-  network: tcp
-  port: 57138
-  server: 216.167.46.226
-  skip-cert-verify: true
+  name: 🇸🇬SG_2|1.6MB/s
+  network: ws
+  port: 16618
+  server: t.cnmjcn.cyou
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: b18ae1c7-b9ef-433c-ebd0-36bb9c62cf86
+  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
+  ws-opts:
+    headers:
+      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
+    path: /
+- cipher: aes-128-gcm
+  name: 🇯🇵JP_1|1.3MB/s
+  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: aoe.o.eoa.ccwu.cc
+    mode: websocket
+    mux: false
+    path: /?enc\=aes-128-gcm
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: yg2.ygkkk.dpdns.org
+  type: ss
+- alpn:
+  - http/1.1
+  name: 🇩🇪DE_3|1.0MB/s
+  network: ws
+  password: mSzFVhUczD
+  port: '443'
+  server: 104.20.6.134
+  skip-cert-verify: false
+  sni: abest.api-tel.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
+        Gecko) Chrome/26.0.1410.64 Safari/537.31
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_3|1.3MB/s
+  port: 29709
+  server: 216.167.126.14
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: c19c51e3-11ff-4f1c-92c6-200784acd4fc
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵JP_2|1.5MB/s
+  network: ws
+  port: 16617
+  server: t.cnmjcn.cyou
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: f091e44a-daee-4782-a910-d699a0c1145f
+  ws-opts:
+    headers:
+      Host: 9ca5d7234ca908eb0cefe9fdb6d61d35.mobgslb.tbcache.com
+    path: /
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: https://t.me/ForceRunVPN-🇳🇱-Am...
+  network: raw
+  port: '30830'
+  server: v30.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- alpn:
+  - http/1.1
+  name: 🇩🇪DE_6|1.6MB/s
+  network: ws
+  password: mSzFVhUczD
+  port: '443'
+  server: 104.20.5.134
+  skip-cert-verify: false
+  sni: abest.api-tel.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+    path: /
 - name: AT_speednode_0001
   network: ws
   password: '1234567890'
@@ -1152,19 +1247,6 @@ proxies:
   password: '1234567890'
   port: 8443
   server: 185.170.153.115
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /
-- name: IQ_speednode_0066
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 178.17.48.170
   skip-cert-verify: false
   sni: kfm-bn0.pages.dev
   type: trojan

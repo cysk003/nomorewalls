@@ -11,6 +11,18 @@ proxies:
     headers:
       Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇯🇵 JP 11 TG: @nodpai'
+  network: ws
+  port: 16617
+  server: t.cnmjcn.cyou
+  type: vmess
+  uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef
+  ws-opts:
+    headers:
+      Host: ad0df36a3ca39e1a9e3e303f65b45db4.mobgslb.tbcache.com
+    path: /
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -36,7 +48,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - cipher: aes-128-gcm
-  name: 🇯🇵JP_1|1.7MB/s
+  name: 🇯🇵JP_1|1.7MB/s|2.5MB/s
   password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
   plugin: v2ray-plugin
   plugin-opts:
@@ -50,7 +62,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 🇯🇵JP_2|1.2MB/s
+  name: 🇯🇵JP_1|1.3MB/s
   password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
   plugin: v2ray-plugin
   plugin-opts:
@@ -58,22 +70,22 @@ proxies:
     mode: websocket
     mux: false
     path: /?enc\=aes-128-gcm
+    skip-cert-verify: false
     tls: true
   port: 443
-  server: freeyx.cloudflare88.eu.org
+  server: yg2.ygkkk.dpdns.org
   type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 🇯🇵JP_3|1.7MB/s
-  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: aoe.o.eoa.ccwu.cc
-    mode: websocket
-    mux: false
-    path: /?enc\=aes-128-gcm
-    tls: true
-  port: 443
-  server: cdn.31514926.xyz
-  type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵JP_2|1.5MB/s
+  network: ws
+  port: 16617
+  server: t.cnmjcn.cyou
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: f091e44a-daee-4782-a910-d699a0c1145f
+  ws-opts:
+    headers:
+      Host: 9ca5d7234ca908eb0cefe9fdb6d61d35.mobgslb.tbcache.com
+    path: /
