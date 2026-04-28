@@ -35,17 +35,17 @@ proxies:
 - name: 'A - 🇭🇰 HK 04 TG: @nodpai'
   network: ws
   port: 8880
-  server: 185.162.230.201
+  server: 104.234.239.201
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
       Host: www.udemy.com.joss.jak.biz.id
     path: /Free-VPN-CF-Geo-Project/HK?ed=2560
-- name: 'A - 🇭🇰 HK 05 TG: @nodpai'
+- name: 'B - 🇭🇰 HK 05 TG: @nodpai'
   network: ws
   port: 8880
-  server: 104.234.239.201
+  server: 209.46.30.201
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
@@ -55,7 +55,7 @@ proxies:
 - name: 'B - 🇭🇰 HK 06 TG: @nodpai'
   network: ws
   port: 8880
-  server: 66.81.247.201
+  server: 92.53.191.201
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
@@ -63,13 +63,15 @@ proxies:
       Host: www.udemy.com.joss.jak.biz.id
     path: /Free-VPN-CF-Geo-Project/HK?ed=2560
 - name: 'B - 🇭🇰 HK 07 TG: @nodpai'
-  password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
-  port: 8443
-  server: fb473ba2-te7og0-tfmrui-duku.hkt.cdnhuawei.com
-  sni: fb473ba2-te7og0-tfmrui-duku.hkt.cdnhuawei.com
-  tls: true
-  type: http
-  username: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
+  network: ws
+  port: 8880
+  server: 154.218.15.201
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: www.udemy.com.joss.jak.biz.id
+    path: /Free-VPN-CF-Geo-Project/HK?ed=2560
 - name: 'B - 🇭🇰 HK 09 TG: @nodpai'
   network: ws
   port: 8880
@@ -90,19 +92,16 @@ proxies:
     headers:
       Host: www.udemy.com.joss.jak.biz.id
     path: /Free-VPN-CF-Geo-Project/HK?ed=2560
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 'B - 🇭🇰 HK 11 TG: @nodpai'
+- name: 'B - 🇭🇰 HK 11 TG: @nodpai'
   network: ws
-  port: 16622
-  server: t.cnmjcn.cyou
-  type: vmess
-  uuid: 705f9dfc-07a7-44b8-bd43-15d32abfa61d
+  port: 8880
+  server: 92.53.190.201
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: 943b57a4316253b5c6ef402731b11d57.mobgslb.tbcache.com
-    path: /
+      Host: www.udemy.com.joss.jak.biz.id
+    path: /Free-VPN-CF-Geo-Project/HK?ed=2560
 - client-fingerprint: chrome
   name: 'B - 🇭🇰 HK 12 TG: @nodpai'
   network: tcp
@@ -115,54 +114,19 @@ proxies:
   tls: true
   type: vless
   uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-- name: 'B - 🇭🇰 HK 13 TG: @nodpai'
-  password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-  port: 8443
-  server: 19016135-te7og0-tfo5nb-yjq0.hkt.cdnhuawei.com
-  sni: 19016135-te7og0-tfo5nb-yjq0.hkt.cdnhuawei.com
-  tls: true
-  type: http
-  username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-- client-fingerprint: chrome
-  encryption: none
-  name: 'B - 🇭🇰 HK 14 TG: @nodpai'
+- host: get.adobe.com
+  name: 'B - 🇭🇰 HK 13 TG: @nodpai'
   network: tcp
   port: 443
   reality-opts:
     public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
   security: reality
-  server: 47.242.215.37
-  servername: www.autodesk.com
-  skip-cert-verify: true
+  server: 8.218.98.33
+  servername: get.adobe.com
   tls: true
   type: vless
   uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-- host: cdn.userway.org
-  name: 'B - 🇭🇰 HK 15 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-  security: reality
-  server: 8.217.48.65
-  servername: cdn.userway.org
-  tls: true
-  type: vless
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-- client-fingerprint: chrome
-  encryption: none
-  name: 'B - 🇭🇰 HK 16 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-  security: reality
-  server: 8.218.117.76
-  servername: prod.adobeccstatic.com
-  tls: true
-  type: vless
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-- name: 'B - 🇭🇰 HK 17 TG: @nodpai'
+- name: 'B - 🇭🇰 HK 14 TG: @nodpai'
   obfs: salamander
   obfs-password: YmGRdMZ74sEC91FN
   password: de8e0342-ea12-4f9d-bc2a-e62409e1913f
@@ -171,7 +135,44 @@ proxies:
   skip-cert-verify: true
   sni: hkzz.66jc.xyz
   type: hysteria2
+- name: 'B - 🇭🇰 HK 15 TG: @nodpai'
+  password: 1b609740-eec2-11ef-8543-f23c93136cb3
+  port: 8443
+  server: 8510e7a9-tea5c0-tfnl0i-au6.hkmpro.wkuaishou.com
+  sni: 8510e7a9-tea5c0-tfnl0i-au6.hkmpro.wkuaishou.com
+  tls: true
+  type: http
+  username: 1b609740-eec2-11ef-8543-f23c93136cb3
+- alterId: 2
+  cipher: auto
+  name: 'C - 🇭🇰 HK 17 TG: @nodpai'
+  port: 30809
+  server: v9.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 'C - 🇭🇰 HK 19 TG: @nodpai'
+  network: ws
+  port: 443
+  server: 161.248.254.27
+  servername: joss.jak.biz.id
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: joss.jak.biz.id
+    path: /Free-VPN-CF-Geo-Project/HK?ed=2560
+- encryption: none
+  name: 'C - 🇭🇰 HK 20 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 109.176.239.253
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: joss.jak.biz.id
+    path: /Free-VPN-CF-Geo-Project/HK?ed=2560
+- name: 'C - 🇭🇰 HK 21 TG: @nodpai'
   network: ws
   port: 8880
   server: 50.62.175.253
@@ -181,7 +182,7 @@ proxies:
     headers:
       Host: joss.jak.biz.id
     path: /Free-VPN-CF-Geo-Project/HK?ed=2560
-- name: 'C - 🇭🇰 HK 20 TG: @nodpai'
+- name: 'C - 🇭🇰 HK 22 TG: @nodpai'
   network: ws
   port: 8880
   server: 192.169.223.253
@@ -192,7 +193,7 @@ proxies:
       Host: joss.jak.biz.id
     path: /Free-VPN-CF-Geo-Project/HK?ed=2560
 - host: www.debian.org
-  name: 'C - 🇭🇰 HK 21 TG: @nodpai'
+  name: 'C - 🇭🇰 HK 23 TG: @nodpai'
   network: tcp
   port: 443
   reality-opts:
@@ -203,7 +204,22 @@ proxies:
   tls: true
   type: vless
   uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-- name: 'D - 🇭🇰 HK 23 TG: @nodpai'
+- encryption: none
+  name: 'C - 🇭🇰 HK 24 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 193.123.233.168
+  servername: joss.jak.biz.id
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: joss.jak.biz.id
+    path: /Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2🇨🇳
+- name: 'D - 🇭🇰 HK 26 TG: @nodpai'
   network: ws
   port: 26048
   security: tls
@@ -218,12 +234,12 @@ proxies:
     path: /Free-VPN-CF-Geo-Project/HK?ed=2560&https://t.me/WangCai2🇨🇳
 - alterId: 0
   cipher: auto
-  name: 'D - 🇭🇰 HK 24 TG: @nodpai'
+  name: 'D - 🇭🇰 HK 27 TG: @nodpai'
   port: 54022
   server: 103.181.164.145
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 'D - 🇭🇰 HK 27 TG: @nodpai'
+- name: 'D - 🇭🇰 HK 28 TG: @nodpai'
   network: ws
   port: 443
   security: tls
@@ -236,7 +252,17 @@ proxies:
     headers:
       Host: joss.jak.biz.id
     path: /Free-VPN-CF-Geo-Project/HK?ed=2560
-- name: 'D - 🇭🇰 HK 28 TG: @nodpai'
+- name: 'D - 🇭🇰 HK 29 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 160.153.136.253
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: joss.jak.biz.id
+    path: /Free-VPN-CF-Geo-Project/HK?ed=2560
+- name: 'D - 🇭🇰 HK 30 TG: @nodpai'
   network: ws
   port: 443
   server: 207.65.189.9

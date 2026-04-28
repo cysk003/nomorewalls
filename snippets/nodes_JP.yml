@@ -13,15 +13,6 @@ proxies:
     headers:
       Host: ithome.com
     path: /chat
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇯🇵 JP 14 TG: @nodpai'
-  network: h2
-  port: 58051
-  server: 103.127.243.55
-  tls: true
-  type: vmess
-  uuid: 8e5b521a-4a56-4bd7-baf1-bfcdf55d6cf1
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

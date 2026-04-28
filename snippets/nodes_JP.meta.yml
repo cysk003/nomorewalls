@@ -1,17 +1,4 @@
 proxies:
-- name: 'A - 🇯🇵 JP 01 TG: @nodpai'
-  network: ws
-  port: 49058
-  security: tls
-  server: 45.93.29.223
-  servername: 1n9fo0l9hl.gike.dpdns.org
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 1n9fo0l9hl.gike.dpdns.org
-    path: /@Marisa_kristi
 - client-fingerprint: chrome
   metadata:
     cleanName: 韩国5
@@ -20,7 +7,7 @@ proxies:
     originalName: 韩国5
     region: 韩国
     tags: []
-  name: 'A - 🇯🇵 JP 02 TG: @nodpai'
+  name: 'A - 🇯🇵 JP 01 TG: @nodpai'
   network: ws
   port: 8998
   server: 45.93.31.193
@@ -43,6 +30,14 @@ proxies:
   tls: true
   type: http
   username: f8eca8df-a1a5-4918-a194-d34112a3673f
+- name: 'A - 🇯🇵 JP 03 TG: @nodpai'
+  password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
+  port: 443
+  server: 0178d9b3-te9j40-tir0zk-1hpo0.jp.oshuawei.com
+  sni: 0178d9b3-te9j40-tir0zk-1hpo0.jp.oshuawei.com
+  tls: true
+  type: http
+  username: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
 - client-fingerprint: chrome
   metadata:
     cleanName: 美国1
@@ -178,13 +173,6 @@ proxies:
       Host: n1bj62x9v5oinzz6jwxq5sz.misa.cc.cd
     path: /@Marisa_kristi
 - name: 'B - 🇯🇵 JP 12 TG: @nodpai'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-jp-004.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-jp-004.fastervpn.world
-  type: hysteria2
-- name: 'B - 🇯🇵 JP 13 TG: @nodpai'
   password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
   port: 443
   server: ea4b51c1-te5ts0-tir0zk-1hpo0.jp.oshuawei.com
@@ -192,15 +180,20 @@ proxies:
   tls: true
   type: http
   username: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇯🇵 JP 14 TG: @nodpai'
-  network: h2
-  port: 58051
-  server: 103.127.243.55
+- name: 'B - 🇯🇵 JP 13 TG: @nodpai'
+  password: f8eca8df-a1a5-4918-a194-d34112a3673f
+  port: 443
+  server: cj04.71edgeiqiyi.com
   tls: true
-  type: vmess
-  uuid: 8e5b521a-4a56-4bd7-baf1-bfcdf55d6cf1
+  type: http
+  username: f8eca8df-a1a5-4918-a194-d34112a3673f
+- name: 'B - 🇯🇵 JP 14 TG: @nodpai'
+  password: f8eca8df-a1a5-4918-a194-d34112a3673f
+  port: 7443
+  server: jc7U654714155239.asia.steamliveonline.com
+  tls: true
+  type: http
+  username: f8eca8df-a1a5-4918-a194-d34112a3673f
 - name: 'B - 🇯🇵 JP 15 TG: @nodpai'
   password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
   port: 443
@@ -231,17 +224,10 @@ proxies:
     headers:
       Host: n1bj62x9v5oinzz6jwxq5sz.misa.cc.cd
     path: /@Marisa_kristi
-- name: 'B - 🇯🇵 JP 17 TG: @nodpai'
-  password: f8eca8df-a1a5-4918-a194-d34112a3673f
-  port: 40443
-  server: jbU654714155239871.j4cdn.cdnxiaohongshu.com
-  tls: true
-  type: http
-  username: f8eca8df-a1a5-4918-a194-d34112a3673f
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 'B - 🇯🇵 JP 18 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 17 TG: @nodpai'
   network: tcp
   port: 52006
   security: tls
@@ -258,7 +244,7 @@ proxies:
     originalName: 德国3
     region: 德国
     tags: []
-  name: 'B - 🇯🇵 JP 19 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 18 TG: @nodpai'
   network: ws
   port: 20205
   server: 146.70.20.110
@@ -281,7 +267,7 @@ proxies:
     originalName: 新加坡1
     region: 新加坡
     tags: []
-  name: 'B - 🇯🇵 JP 20 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 19 TG: @nodpai'
   network: ws
   port: 41899
   server: 47.245.106.145
