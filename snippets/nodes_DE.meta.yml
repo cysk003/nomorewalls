@@ -146,7 +146,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'A - 🇩🇪 DE 12 TG: @nodpai'
+- name: 🇩🇪DE_2|1.0MB/s
   password: github.com/Alvin9999-newpac/fanqiang
   port: 12855
   server: 83.243.86.103
@@ -210,7 +210,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 🇸🇬SG_2|1.4MB/s
+- name: 🇸🇬SG_1|3.3MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2096
@@ -251,14 +251,19 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 🇩🇪DE_1|2.2MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-de-001.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-de-001.fastervpn.world
-  type: hysteria2
+- name: 🇩🇪DE_1|1.5MB/s
+  network: ws
+  port: 2083
+  server: 104.20.6.134
+  servername: xn-de.shakhle.ir.
+  tls: true
+  type: vless
+  udp: true
+  uuid: b24484be-a335-472c-8dff-060ccd2b8f3b
+  ws-opts:
+    headers:
+      Host: xn-de.shakhle.ir.
+    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: DE_speednode_0005
