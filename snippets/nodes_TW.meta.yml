@@ -1,5 +1,5 @@
 proxies:
-- name: 'A - 🇹🇼 TW 02 TG: @nodpai'
+- name: 'B - 🇹🇼 TW 02 TG: @nodpai'
   network: ws
   port: 443
   security: tls
@@ -11,31 +11,7 @@ proxies:
     headers:
       Host: api.livecut.sbs
     path: /music
-- name: 'A - 🇹🇼 TW 03 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 104.18.40.108
-  tls: true
-  type: vless
-  uuid: fe5a22e1-961f-4b4e-b1ae-2a0415ebd777
-  ws-opts:
-    headers:
-      Host: api.livecut.sbs
-    path: /music
-- name: 'A - 🇹🇼 TW 04 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 172.64.154.31
-  tls: true
-  type: vless
-  uuid: fe5a22e1-961f-4b4e-b1ae-2a0415ebd777
-  ws-opts:
-    headers:
-      Host: api.livecut.sbs
-    path: /music
-- name: 'A - 🇹🇼 TW 05 TG: @nodpai'
+- name: 'B - 🇹🇼 TW 03 TG: @nodpai'
   network: ws
   port: 443
   security: tls
@@ -47,7 +23,31 @@ proxies:
     headers:
       Host: api.livecut.sbs
     path: /music
-- name: 'C - 🇹🇼 TW 06 TG: @nodpai'
+- name: 'B - 🇹🇼 TW 04 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 104.18.40.108
+  tls: true
+  type: vless
+  uuid: fe5a22e1-961f-4b4e-b1ae-2a0415ebd777
+  ws-opts:
+    headers:
+      Host: api.livecut.sbs
+    path: /music
+- name: 'B - 🇹🇼 TW 05 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 172.64.154.31
+  tls: true
+  type: vless
+  uuid: fe5a22e1-961f-4b4e-b1ae-2a0415ebd777
+  ws-opts:
+    headers:
+      Host: api.livecut.sbs
+    path: /music
+- name: 'B - 🇹🇼 TW 06 TG: @nodpai'
   network: ws
   port: 6235
   server: 125.227.219.98
@@ -62,7 +62,7 @@ proxies:
       host: baidu.com
     path: /xxxxhttp
 - client-fingerprint: chrome
-  name: 'C - 🇹🇼 TW 07 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 07 TG: @nodpai'
   network: ws
   port: 6235
   server: 125.227.219.98

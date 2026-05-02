@@ -14,7 +14,7 @@ proxies:
     method: GET
     path:
     - /ABCDE
-  name: 'B - 🇯🇵 JP 07 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 08 TG: @nodpai'
   network: http
   port: 54291
   server: 103.127.243.66
@@ -27,7 +27,7 @@ proxies:
     headers: {}
     path:
     - /ABCDE
-  name: 'C - 🇯🇵 JP 11 TG: @nodpai'
+  name: 'C - 🇯🇵 JP 12 TG: @nodpai'
   network: http
   port: 55386
   server: 103.127.243.60
@@ -37,16 +37,16 @@ proxies:
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 9412
-  server: 18.163.116.37
+  port: 443
+  server: 116.80.61.224
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 日本2|@ripaojiedian
   network: tcp
   password: 69ecb45889d99f31b8ccc10bf8f76a72
-  port: 2008
-  server: 13.230.197.150
+  port: 53018
+  server: 95.40.115.145
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan

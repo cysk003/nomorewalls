@@ -1,4 +1,18 @@
 proxies:
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇸🇬 SG 08 TG: @nodpai'
+  port: 30845
+  server: v45.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇸🇬 SG 21 TG: @nodpai'
+  port: 51556
+  server: 103.181.164.145
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: 69ecb45889d99f31b8ccc10bf8f76a72
@@ -18,8 +32,8 @@ proxies:
 - name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 4203
-  server: 18.163.116.37
+  port: 1275
+  server: 43.198.82.20
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
