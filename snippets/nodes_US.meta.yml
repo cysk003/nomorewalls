@@ -49,17 +49,8 @@ proxies:
   ws-opts:
     headers:
       Host: amirvpn.amirhm00100.workers.dev
-- name: 'A - 🇺🇸 US 06 TG: @nodpai'
-  network: ws
-  port: 80
-  server: 162.159.34.60
-  type: vless
-  uuid: 0ca855d9-7c03-40eb-929b-919f934abdc3
-  ws-opts:
-    headers:
-      Host: amirvpn.amirhm00100.workers.dev
 - encryption: none
-  name: 'A - 🇺🇸 US 07 TG: @nodpai'
+  name: 'A - 🇺🇸 US 06 TG: @nodpai'
   network: ws
   port: 80
   server: 104.19.35.216
@@ -70,7 +61,7 @@ proxies:
       Host: amirvpn.amirhm00100.workers.dev
     path: /?ed=2048
 - encryption: none
-  name: 'A - 🇺🇸 US 08 TG: @nodpai'
+  name: 'A - 🇺🇸 US 07 TG: @nodpai'
   network: ws
   port: 80
   server: 104.16.30.239
@@ -82,7 +73,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 'A - 🇺🇸 US 09 TG: @nodpai'
+  name: 'A - 🇺🇸 US 08 TG: @nodpai'
   port: 180
   server: 82.198.246.37
   type: vmess
@@ -97,7 +88,7 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - encryption: none
-  name: 'A - 🇺🇸 US 13 TG: @nodpai'
+  name: 'A - 🇺🇸 US 12 TG: @nodpai'
   network: ws
   port: 80
   server: 104.18.81.143
@@ -107,7 +98,7 @@ proxies:
     headers:
       Host: amirvpn.amirhm00100.workers.dev
     path: /?ed=2048
-- name: 'A - 🇺🇸 US 14 TG: @nodpai'
+- name: 'A - 🇺🇸 US 13 TG: @nodpai'
   network: ws
   port: 80
   server: 104.19.238.22
@@ -118,7 +109,7 @@ proxies:
       Host: sfsl.ardomains1.dpdns.org
     path: /?ed=2048
 - encryption: none
-  name: 'A - 🇺🇸 US 15 TG: @nodpai'
+  name: 'A - 🇺🇸 US 14 TG: @nodpai'
   network: ws
   port: 80
   server: 104.19.32.128
@@ -129,7 +120,7 @@ proxies:
       Host: amirvpn.amirhm00100.workers.dev
     path: /?ed=2048
 - encryption: none
-  name: 'A - 🇺🇸 US 16 TG: @nodpai'
+  name: 'A - 🇺🇸 US 15 TG: @nodpai'
   network: ws
   port: 80
   server: 104.16.164.44
@@ -139,7 +130,7 @@ proxies:
     headers:
       Host: amirvpn.amirhm00100.workers.dev
     path: /
-- name: 'A - 🇺🇸 US 17 TG: @nodpai'
+- name: 'A - 🇺🇸 US 16 TG: @nodpai'
   network: ws
   port: 80
   server: 188.114.97.3
@@ -150,7 +141,7 @@ proxies:
       Host: amirvpn.amirhm00100.workers.dev
     path: /?ed=2048
 - encryption: none
-  name: 'A - 🇺🇸 US 18 TG: @nodpai'
+  name: 'A - 🇺🇸 US 17 TG: @nodpai'
   network: ws
   port: 443
   security: tls
@@ -164,7 +155,7 @@ proxies:
       Host: fu.baiproxy.us.ci
     path: /?ed=2560
 - encryption: none
-  name: 'A - 🇺🇸 US 19 TG: @nodpai'
+  name: 'A - 🇺🇸 US 18 TG: @nodpai'
   network: ws
   port: 80
   server: 104.17.169.216
@@ -176,7 +167,7 @@ proxies:
 - client-fingerprint: random
   grpc-opts:
     grpc-service-name: grpc
-  name: 'A - 🇺🇸 US 20 TG: @nodpai'
+  name: 'A - 🇺🇸 US 19 TG: @nodpai'
   network: grpc
   port: 443
   security: tls
@@ -186,7 +177,7 @@ proxies:
   type: vless
   uuid: c4d69096-4026-4da5-9485-20a3da91cb14
 - encryption: none
-  name: 'A - 🇺🇸 US 21 TG: @nodpai'
+  name: 'A - 🇺🇸 US 20 TG: @nodpai'
   network: ws
   port: 2053
   security: tls
@@ -199,6 +190,17 @@ proxies:
     headers:
       Host: fu.baiproxy.us.ci
     path: /?ed=2560
+- name: 'A - 🇺🇸 US 21 TG: @nodpai'
+  network: ws
+  port: 443
+  server: 104.27.30.20
+  servername: sfsl.ardomains1.dpdns.org
+  type: vless
+  uuid: 69d38faa-21a1-4d18-82cb-796a942c181b
+  ws-opts:
+    headers:
+      Host: sfsl.ardomains1.dpdns.org
+    path: /?ed=2048security=tls
 - name: 'B - 🇺🇸 US 22 TG: @nodpai'
   network: ws
   port: 80
@@ -335,15 +337,6 @@ proxies:
   type: http
   username: 1b609740-eec2-11ef-8543-f23c93136cb3
 - name: 'B - 🇺🇸 US 38 TG: @nodpai'
-  network: ws
-  port: 80
-  server: 104.17.46.112
-  type: vless
-  uuid: 69d38faa-21a1-4d18-82cb-796a942c181b
-  ws-opts:
-    headers:
-      Host: sfsl.ardomains1.dpdns.org
-- name: 'B - 🇺🇸 US 39 TG: @nodpai'
   password: 1b609740-eec2-11ef-8543-f23c93136cb3
   port: 5443
   server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
@@ -361,47 +354,47 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 'B - 🇺🇸 US 41 TG: @nodpai'
+  name: 'B - 🇺🇸 US 40 TG: @nodpai'
   port: 180
   server: 82.198.246.214
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 'B - 🇺🇸 US 42 TG: @nodpai'
+- name: 'B - 🇺🇸 US 41 TG: @nodpai'
   password: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
   port: 443
   server: c16a1111-te7og0-tfzwoc-1ryup.se.oshuawei.com
   tls: true
   type: http
   username: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
-- name: 'B - 🇺🇸 US 43 TG: @nodpai'
+- name: 'B - 🇺🇸 US 42 TG: @nodpai'
   password: 0b869f32-657e-11ee-a90c-f23c9313b177
   port: 3443
   server: 71089030-te8ao0-tfn5eh-24c4.los.west.wctype.com
   tls: true
   type: http
   username: 0b869f32-657e-11ee-a90c-f23c9313b177
-- name: 'B - 🇺🇸 US 44 TG: @nodpai'
+- name: 'B - 🇺🇸 US 43 TG: @nodpai'
   password: 6286105c-fb6d-11ef-be96-f23c93136cb3
   port: 5443
   server: 3a34a055-te8ao0-telzv3-4550.fmtdc1.sghuawei.com
   tls: true
   type: http
   username: 6286105c-fb6d-11ef-be96-f23c93136cb3
-- name: 'B - 🇺🇸 US 45 TG: @nodpai'
+- name: 'B - 🇺🇸 US 44 TG: @nodpai'
   password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
   port: 8443
   server: b45e9721-te9j40-tfpmu9-1m0fq.isp.cdnkuaishou.com
   tls: true
   type: http
   username: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
-- name: 'B - 🇺🇸 US 46 TG: @nodpai'
+- name: 'B - 🇺🇸 US 45 TG: @nodpai'
   password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
   port: 8443
   server: d35d0d62-te9j40-tfmrui-duku.isp.cdnkuaishou.com
   tls: true
   type: http
   username: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
-- name: 'B - 🇺🇸 US 47 TG: @nodpai'
+- name: 'B - 🇺🇸 US 46 TG: @nodpai'
   password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
   port: 443
   server: 2cfbd9e4-te9j40-tfpmu9-1m0fq.se.oshuawei.com
@@ -409,7 +402,7 @@ proxies:
   type: http
   username: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
 - flow: xtls-rprx-vision
-  name: 'B - 🇺🇸 US 48 TG: @nodpai'
+  name: 'B - 🇺🇸 US 47 TG: @nodpai'
   port: 443
   security: reality
   server: 77.105.162.153
@@ -417,7 +410,7 @@ proxies:
   tls: true
   type: vless
   uuid: 322ffd77-9adc-4e10-8302-a8bcc14555a0
-- name: 'B - 🇺🇸 US 49 TG: @nodpai'
+- name: 'B - 🇺🇸 US 48 TG: @nodpai'
   network: ws
   port: 80
   server: 172.67.128.54
@@ -429,7 +422,7 @@ proxies:
     path: /
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 'B - 🇺🇸 US 50 TG: @nodpai'
+  name: 'B - 🇺🇸 US 49 TG: @nodpai'
   port: 443
   security: tls
   server: 185.96.80.175
@@ -438,7 +431,7 @@ proxies:
   type: vless
   uuid: 6cabb434-f480-478a-9586-a5667167eeb1
 - encryption: none
-  name: 'B - 🇺🇸 US 51 TG: @nodpai'
+  name: 'B - 🇺🇸 US 50 TG: @nodpai'
   network: ws
   port: 80
   server: 104.19.54.173
@@ -448,7 +441,7 @@ proxies:
     headers:
       Host: amirvpn.amirhm00100.workers.dev
     path: /?ed=2048
-- name: 'B - 🇺🇸 US 52 TG: @nodpai'
+- name: 'B - 🇺🇸 US 51 TG: @nodpai'
   network: ws
   password: Aimer
   port: 2053
@@ -460,7 +453,7 @@ proxies:
     headers:
       Host: epge.muarua.filegear-sg.me
     path: /?ed
-- name: 'B - 🇺🇸 US 53 TG: @nodpai'
+- name: 'B - 🇺🇸 US 52 TG: @nodpai'
   network: ws
   port: 443
   server: 172.67.111.41
@@ -472,7 +465,7 @@ proxies:
     headers:
       Host: sfsl.ardomains1.dpdns.org
     path: /security=tls
-- name: 'B - 🇺🇸 US 54 TG: @nodpai'
+- name: 'B - 🇺🇸 US 53 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -485,7 +478,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇺🇸 US 55 TG: @nodpai'
+- name: 'B - 🇺🇸 US 54 TG: @nodpai'
   network: ws
   port: 443
   server: 104.17.46.112
@@ -498,7 +491,7 @@ proxies:
       Host: sfsl.ardomains1.dpdns.org
     path: /security=tls
 - encryption: none
-  name: 'B - 🇺🇸 US 56 TG: @nodpai'
+  name: 'B - 🇺🇸 US 55 TG: @nodpai'
   network: ws
   port: 80
   server: 104.19.163.160
@@ -509,7 +502,7 @@ proxies:
       Host: amirvpn.amirhm00100.workers.dev
     path: /?ed=2048
 - encryption: none
-  name: 'B - 🇺🇸 US 57 TG: @nodpai'
+  name: 'B - 🇺🇸 US 56 TG: @nodpai'
   network: ws
   port: 80
   server: 104.19.32.169
@@ -519,7 +512,7 @@ proxies:
     headers:
       Host: amirvpn.amirhm00100.workers.dev
     path: /?ed=2048
-- name: 'B - 🇺🇸 US 58 TG: @nodpai'
+- name: 'B - 🇺🇸 US 57 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -532,7 +525,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇺🇸 US 59 TG: @nodpai'
+- name: 'B - 🇺🇸 US 58 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -553,7 +546,7 @@ proxies:
   sni: vpn-us-003.fastervpn.world
   tls: false
   type: hysteria2
-- name: 'B - 🇺🇸 US 61 TG: @nodpai'
+- name: 'B - 🇺🇸 US 60 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
@@ -566,7 +559,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇺🇸 US 62 TG: @nodpai'
+- name: 'B - 🇺🇸 US 61 TG: @nodpai'
   network: ws
   port: 80
   server: 104.21.0.190
@@ -585,21 +578,21 @@ proxies:
   tls: false
   type: hysteria2
   up: 10
-- name: 'C - 🇺🇸 US 64 TG: @nodpai'
+- name: 'C - 🇺🇸 US 63 TG: @nodpai'
   password: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
   port: 443
   server: 7bad616e-te9j40-tfzwoc-1ryup.sj.hyhuawei.com
   tls: true
   type: http
   username: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
-- name: 'C - 🇺🇸 US 65 TG: @nodpai'
+- name: 'C - 🇺🇸 US 64 TG: @nodpai'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: vpn-us-005.fastervpn.world
   skip-cert-verify: true
   sni: vpn-us-005.fastervpn.world
   type: hysteria2
-- name: 'C - 🇺🇸 US 67 TG: @nodpai'
+- name: 'C - 🇺🇸 US 66 TG: @nodpai'
   network: ws
   port: 443
   server: 104.18.12.149
@@ -612,12 +605,12 @@ proxies:
     path: /pyip=47.251.95.178security=tls
 - alterId: 2
   cipher: auto
-  name: 'C - 🇺🇸 US 68 TG: @nodpai'
+  name: 'C - 🇺🇸 US 67 TG: @nodpai'
   port: 30808
   server: v8.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 'C - 🇺🇸 US 69 TG: @nodpai'
+- name: 'C - 🇺🇸 US 68 TG: @nodpai'
   password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
   port: 443
   server: 09bce054-te5ts0-tir0zk-1hpo0.sjc.oshuawei.com
@@ -625,7 +618,7 @@ proxies:
   type: http
   username: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
 - flow: xtls-rprx-vision
-  name: 'C - 🇺🇸 US 70 TG: @nodpai'
+  name: 'C - 🇺🇸 US 69 TG: @nodpai'
   port: 443
   security: reality
   server: 2.26.123.64
@@ -633,13 +626,20 @@ proxies:
   tls: true
   type: vless
   uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-- name: 'C - 🇺🇸 US 71 TG: @nodpai'
+- name: 'C - 🇺🇸 US 70 TG: @nodpai'
   password: b585dac6-dc69-11ef-9f1c-f23c913c8d2b
   port: 443
   server: e1297502-te9j40-tfpmx4-1mqag.sjc.oshuawei.com
   tls: true
   type: http
   username: b585dac6-dc69-11ef-9f1c-f23c913c8d2b
+- alterId: 2
+  cipher: auto
+  name: 'C - 🇺🇸 US 71 TG: @nodpai'
+  port: 30804
+  server: v4.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 'C - 🇺🇸 US 72 TG: @nodpai'
   password: 1b609740-eec2-11ef-8543-f23c93136cb3
   port: 3443
