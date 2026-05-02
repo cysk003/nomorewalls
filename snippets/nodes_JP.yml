@@ -1,39 +1,42 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 'B - 🇯🇵 JP 06 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 05 TG: @nodpai'
   port: 30806
   server: v6.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /ABCDE
   name: 'B - 🇯🇵 JP 08 TG: @nodpai'
-  network: http
+  network: h2
   port: 54291
   server: 103.127.243.66
+  tls: true
   type: vmess
   uuid: c5856e0b-5ca6-49bf-8525-d02af9c37cf5
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  http-opts:
-    headers: {}
-    path:
-    - /ABCDE
   name: 'C - 🇯🇵 JP 12 TG: @nodpai'
-  network: http
+  network: h2
   port: 55386
   server: 103.127.243.60
-  tls: false
+  tls: true
   type: vmess
   uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
+- name: 'D - 🇯🇵 JP 13 TG: @nodpai'
+  network: ws
+  password: '!!str 162534'
+  port: 443
+  server: 161.33.197.118
+  skip-cert-verify: true
+  sni: cchh2.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: cchh2.pages.dev
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
