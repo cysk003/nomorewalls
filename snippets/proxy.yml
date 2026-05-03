@@ -29,6 +29,7 @@ payload:
 - DOMAIN-SUFFIX,api.fast.com
 - DOMAIN-SUFFIX,primevideo.com
 - DOMAIN-SUFFIX,luogu.com
+- DOMAIN-SUFFIX,gradle.org
 - DOMAIN-KEYWORD,google
 - DOMAIN-SUFFIX,fb.me
 - DOMAIN-SUFFIX,twimg.com
