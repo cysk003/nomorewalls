@@ -231,13 +231,13 @@ rules:
   - DOMAIN-KEYWORD,discord,🚀 选择代理
   - DOMAIN-SUFFIX,v1.mk,🚀 选择代理
   - DOMAIN-SUFFIX,outlook.com,DIRECT
-  - DOMAIN-SUFFIX,lsposed.org,🚀 选择代理
+  # - DOMAIN-SUFFIX,lsposed.org,🚀 选择代理
   
   # - DOMAIN-SUFFIX,googleapis.cn,DIRECT
   - DOMAIN,connectivitycheck.gstatic.com,🚀 选择代理 # See #57
   - DOMAIN,dl.google.com,❓ 疑似国内
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,DIRECT # Google Play 国外/国内 服务器，可直连，但只有国行机才能选到国内？
-  - DOMAIN-SUFFIX,xn--ngstr-cn-8za9o.com,DIRECT # Google Play 纯国内 服务器，似乎没啥卵用？
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🐟 漏网之鱼 # Google Play 国外/国内 服务器，可直连，但只有国行机才能选到国内？
+  - DOMAIN-SUFFIX,xn--ngstr-cn-8za9o.com,❓ 疑似国内 # Google Play 纯国内 服务器，似乎没啥卵用？
   - DOMAIN-SUFFIX,gvt1-cn.com,DIRECT
   - DOMAIN,redirector.gvt1.com,DIRECT # 会解析到你使用的运营商
   - DOMAIN,fonts.googleapis.com,DIRECT
