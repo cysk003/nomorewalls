@@ -1,21 +1,132 @@
 proxies:
-- name: 'A - 🇯🇵 JP 01 TG: @nodpai'
+- client-fingerprint: chrome
+  metadata:
+    cleanName: 日本1
+    flag: 🇯🇵
+    multiplier: 1
+    originalName: 日本1
+    region: 日本
+    tags: []
+  name: 'A - 🇯🇵 JP 01 TG: @nodpai'
+  network: ws
+  port: 28480
+  server: 45.149.156.40
+  servername: guslef2w8oz12wv.ymj.xx.kg
+  sni: guslef2w8oz12wv.ymj.xx.kg
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: guslef2w8oz12wv.ymj.xx.kg
+    path: /@Marisa_kristi
+- name: 'B - 🇯🇵 JP 02 TG: @nodpai'
+  network: ws
+  port: 31772
+  security: tls
+  server: 8.211.174.145
+  servername: rolaqoubhqt.bpd67081tsq.ddns-ip.net
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: rolaqoubhqt.bpd67081tsq.ddns-ip.net
+    path: /@Marisa_kristifp=chrome
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇯🇵 JP 03 TG: @nodpai'
+  port: 30806
+  server: v6.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 'B - 🇯🇵 JP 04 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 45.8.112.158
+  server: 153.121.45.101
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
+  tls: true
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇯🇵 JP 02 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 05 TG: @nodpai'
+  network: ws
+  port: 28382
+  security: tls
+  server: 138.2.71.48
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: nn9jdg-k7yewrrk.acg.xx.kg
+    path: /@Marisa_kristifp=chrome
+- encryption: none
+  name: 'B - 🇯🇵 JP 06 TG: @nodpai'
+  network: ws
+  port: 30001
+  security: tls
+  server: 114.204.40.185
+  servername: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
+    path: /@Marisa_kristifp=chrome
+- down: ''
+  fingerprint: ''
+  name: ❓Other_1|1.5MB/s
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-jp-004.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-jp-004.fastervpn.world
+  type: hysteria2
+  up: ''
+- flow: xtls-rprx-vision-udp443-udp443-udp443
+  name: 'B - 🇯🇵 JP 08 TG: @nodpai'
+  port: 443
+  security: tls
+  server: tokyo1.ap221.com
+  servername: tokyo.ap221.com
+  tls: true
+  type: vless
+  uuid: 8f25d191-c31c-4d07-86ec-db01fe1085d9
+- name: 'B - 🇯🇵 JP 09 TG: @nodpai'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 116.206.92.109
+  skip-cert-verify: true
+  type: hysteria2
+- name: 'B - 🇯🇵 JP 10 TG: @nodpai'
+  password: 8r%253C%255B9%2527l6hAO%25238ZQi
+  port: 42841
+  server: 43.165.190.11
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+- name: 'B - 🇯🇵 JP 11 TG: @nodpai'
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  port: 8443
+  server: 176.97.70.51
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+- name: 'B - 🇯🇵 JP 12 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 140.235.37.69
+  port: 2053
+  server: 103.75.118.144
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -24,167 +135,89 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵JP_1|1.0MB/s
+- client-fingerprint: chrome
+  metadata:
+    cleanName: 德国5
+    flag: 🇩🇪
+    multiplier: 1
+    originalName: 德国5
+    region: 德国
+    tags: []
+  name: 'B - 🇯🇵 JP 13 TG: @nodpai'
   network: ws
-  port: 16617
-  server: m.cnmjin.net
-  type: vmess
-  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
-  ws-opts:
-    headers:
-      Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇯🇵 JP 05 TG: @nodpai'
-  port: 55386
-  server: 103.127.243.60
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
-- encryption: none
-  flow: xtls-rprx-vision-udp443-udp443
-  name: 'B - 🇯🇵 JP 06 TG: @nodpai'
-  port: 443
-  security: tls
-  server: tokyo1.ap221.com
-  servername: tokyo.ap221.com
+  port: 48452
+  server: 185.103.252.249
+  servername: guslef2w8oz12wv.ymj.xx.kg
+  sni: guslef2w8oz12wv.ymj.xx.kg
+  tfo: false
   tls: true
   type: vless
-  uuid: 8f25d191-c31c-4d07-86ec-db01fe1085d9
-- name: 'B - 🇯🇵 JP 07 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 176.97.70.51
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇯🇵 JP 08 TG: @nodpai'
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  port: 10949
-  server: 45.66.129.38
-  skip-cert-verify: false
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-- name: 'B - 🇯🇵 JP 09 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 21044
-  server: 138.2.23.80
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇯🇵 JP 10 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 126.220.82.161
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇯🇵 JP 11 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 140.238.50.134
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇯🇵 JP 12 TG: @nodpai'
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  port: 8443
-  server: 140.83.34.214
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: 'B - 🇯🇵 JP 13 TG: @nodpai'
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  port: 443
-  server: 45.32.51.200
-  skip-cert-verify: false
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
+      Host: guslef2w8oz12wv.ymj.xx.kg
+    path: /@Marisa_kristi
 - name: 'B - 🇯🇵 JP 14 TG: @nodpai'
+  network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 44004
-  server: 45.11.1.118
+  port: 443
+  server: 142.91.108.54
+  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
   encryption: none
   name: 'B - 🇯🇵 JP 15 TG: @nodpai'
   network: ws
-  port: 8443
+  port: 40069
   security: tls
-  server: 108.162.198.172
-  servername: kalami-eew.pages.dev
+  server: 192.204.110.97
+  servername: guslef2w8oz12wv.ymj.xx.kg
   tls: true
   type: vless
-  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
+  uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: kalami-eew.pages.dev
-    path: /
+      Host: guslef2w8oz12wv.ymj.xx.kg
+    path: /@Marisa_kristi
 - name: 'B - 🇯🇵 JP 16 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 103.31.77.108
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 'B - 🇯🇵 JP 17 TG: @nodpai'
-  port: 443
-  security: tls
-  server: tokyo1.ap221.com
-  servername: tokyo.ap221.com
-  tls: true
-  type: vless
-  uuid: e8d96c1b-a9d9-4cc6-99f5-e187ad6d7367
-- name: 'B - 🇯🇵 JP 18 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
+  password: 8r%3C%5B9%27l6hAO%238ZQi
   port: 443
   server: 138.2.59.112
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: Koma-YT.PAGeS.Dev
-  tls: true
   type: trojan
+- client-fingerprint: chrome
+  metadata:
+    cleanName: 英国5
+    flag: 🇬🇧
+    multiplier: 1
+    originalName: 英国5
+    region: 英国
+    tags: []
+  name: 'B - 🇯🇵 JP 17 TG: @nodpai'
+  network: ws
+  port: 472
+  server: 139.59.187.72
+  servername: guslef2w8oz12wv.ymj.xx.kg
+  sni: guslef2w8oz12wv.ymj.xx.kg
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- flow: xtls-rprx-vision
-  name: 'B - 🇯🇵 JP 19 TG: @nodpai'
+      Host: guslef2w8oz12wv.ymj.xx.kg
+    path: /@Marisa_kristi
+- flow: xtls-rprx-vision-udp443
+  name: 'B - 🇯🇵 JP 18 TG: @nodpai'
   port: 443
   security: tls
   server: tokyo1.ap221.com
@@ -192,27 +225,31 @@ proxies:
   tls: true
   type: vless
   uuid: 2bd9c075-e47a-46d8-a777-93baa759d8aa
-- name: 'B - 🇯🇵 JP 20 TG: @nodpai'
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  port: 42841
-  server: 43.165.190.11
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'B - 🇯🇵 JP 21 TG: @nodpai'
+- flow: xtls-rprx-vision
+  host: tokyo1.ap221.com
+  name: 'B - 🇯🇵 JP 19 TG: @nodpai'
+  network: tcp
   port: 443
-  server: tokyo1.ap221.com
+  security: tls
+  server: 52.192.230.81
   servername: tokyo.ap221.com
-  skip-cert-verify: true
   tls: true
   type: vless
-  udp: true
-  uuid: 71c50681-d533-446f-84f2-2b34da180d38
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 'B - 🇯🇵 JP 22 TG: @nodpai'
+  uuid: 0dcd0d55-8a1c-4a8b-91c5-6967720a8444
+- name: 'B - 🇯🇵 JP 20 TG: @nodpai'
+  network: ws
+  port: 2053
+  security: tls
+  server: 108.162.198.68
+  tls: true
+  type: vless
+  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
+  ws-opts:
+    headers:
+      Host: kalami-eew.pages.dev
+    path: /fp
+- flow: xtls-rprx-vision-udp443
+  name: 'B - 🇯🇵 JP 21 TG: @nodpai'
   port: 443
   security: tls
   server: tokyo1.ap221.com
@@ -220,55 +257,115 @@ proxies:
   tls: true
   type: vless
   uuid: 90088da9-2502-4829-8361-b7f115894b80
+- name: 'B - 🇯🇵 JP 22 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 23.27.52.79
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - name: 'B - 🇯🇵 JP 23 TG: @nodpai'
   network: ws
-  port: 8443
+  port: 20205
   security: tls
-  server: 172.64.229.109
-  servername: kalami-eew.pages.dev
+  server: 152.42.217.192
+  servername: nisav2de2t0ai8p-hd0.misa.cc.cd
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: nisav2de2t0ai8p-hd0.misa.cc.cd
+    path: /@Marisa_kristifp=chrome
+- name: 'B - 🇯🇵 JP 24 TG: @nodpai'
+  network: ws
+  port: 2083
+  security: tls
+  server: 108.162.198.30
   tls: true
   type: vless
   uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
   ws-opts:
     headers:
       Host: kalami-eew.pages.dev
-    path: /fp=chrome
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 'C - 🇯🇵 JP 24 TG: @nodpai'
+    path: /fp
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision-udp443-udp443-udp443-udp443-udp443-udp443
+  name: 'C - 🇯🇵 JP 25 TG: @nodpai'
   port: 443
   security: tls
   server: tokyo1.ap221.com
   servername: tokyo.ap221.com
   tls: true
   type: vless
-  uuid: 79b78774-0ccd-4792-aa2d-189887dd987f
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision-udp443-udp443-udp443-udp443-udp443
-  name: 🇯🇵JP_2|3.3MB/s
-  network: tcp
-  port: '443'
-  security: tls
-  server: tokyo1.ap221.com
-  servername: tokyo.ap221.com
-  tls: true
-  type: vless
-  udp: true
   uuid: 43b0a450-d0fb-4c8f-b809-4dde6e3c167a
-  xudp: true
-- name: 'C - 🇯🇵 JP 27 TG: @nodpai'
+- name: 'C - 🇯🇵 JP 26 TG: @nodpai'
   network: ws
-  port: 2083
+  port: 8443
   security: tls
-  server: 108.162.198.132
-  servername: kalami-eew.pages.dev
+  server: 162.159.45.156
   tls: true
   type: vless
   uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
   ws-opts:
     headers:
       Host: kalami-eew.pages.dev
-    path: /fp=chrome
+    path: /
+- name: 'C - 🇯🇵 JP 27 TG: @nodpai'
+  network: ws
+  port: 2083
+  security: tls
+  server: 108.162.198.90
+  tls: true
+  type: vless
+  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
+  ws-opts:
+    headers:
+      Host: kalami-eew.pages.dev
+    path: /
+- client-fingerprint: chrome
+  metadata:
+    cleanName: 日本3
+    flag: 🇯🇵
+    multiplier: 1
+    originalName: 日本3
+    region: 日本
+    tags: []
+  name: 'C - 🇯🇵 JP 28 TG: @nodpai'
+  network: ws
+  port: 48740
+  server: 172.237.12.208
+  servername: nisav2de2t0ai8p-hd0.misa.cc.cd
+  sni: nisav2de2t0ai8p-hd0.misa.cc.cd
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: nisav2de2t0ai8p-hd0.misa.cc.cd
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  encryption: none
+  name: 'C - 🇯🇵 JP 29 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 104.238.24.247
+  servername: 3-7v4.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: 3-7v4.pages.dev
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -293,3 +390,27 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵JP_1|1.2MB/s
+  network: ws
+  port: 16617
+  server: t.cnmjcn.cyou
+  type: vmess
+  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
+  ws-opts:
+    headers:
+      Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
+    path: /
+- name: 🇯🇵JP_2|1.6MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 140.83.50.165
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
