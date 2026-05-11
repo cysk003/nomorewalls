@@ -6,23 +6,21 @@ proxies:
   sni: 🔒
   tls: true
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: 'B - 🇹🇼 TW 08 TG: @nodpai'
-  port: 30811
-  server: v11.zgtfqs.click
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 'B - 🇹🇼 TW 09 TG: @nodpai'
-  port: 30813
-  server: v13.zgtfqs.click
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 'B - 🇹🇼 TW 10 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 04 TG: @nodpai'
+  network: ws
+  port: 16616
+  server: t.cnmjcn.cyou
+  type: vmess
+  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
+  ws-opts:
+    headers:
+      Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇹🇼 TW 06 TG: @nodpai'
   network: ws
   port: 16616
   server: planb.mojcn.com
@@ -32,6 +30,13 @@ proxies:
     headers:
       Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
     path: /
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇹🇼 TW 07 TG: @nodpai'
+  port: 30811
+  server: v11.zgtfqs.click
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: 🇹🇼TW_1|1.2MB/s
@@ -44,28 +49,29 @@ proxies:
     headers:
       Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇹🇼 TW 13 TG: @nodpai'
+- client-fingerprint: chrome
+  name: 'B - 🇹🇼 TW 11 TG: @nodpai'
   network: ws
-  port: 16616
-  server: t.cnmjcn.cyou
-  type: vmess
-  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
-  ws-opts:
-    headers:
-      Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
-    path: /
-- name: 'B - 🇹🇼 TW 14 TG: @nodpai'
-  network: ws
-  port: 16396
-  security: tls
-  server: 38.207.160.213
-  servername: tptpss.pages.dev
+  port: 443
+  server: 114.33.57.170
+  servername: 1-aym.pages.dev
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
   uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
   ws-opts:
     headers:
+      Host: 1-aym.pages.dev
+    path: /
+- name: 'B - 🇹🇼 TW 12 TG: @nodpai'
+  network: ws
+  port: 16396
+  server: 38.207.160.213
+  servername: tptpss.pages.dev
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
       Host: tptpss.pages.dev
-    path: /https://203.69.23.34:443fp=chrome
+    path: /https://203.69.23.34:443fp=chromesecurity=tls
