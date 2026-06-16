@@ -443,7 +443,7 @@ class Node:
                 self.data['alpn'] = unquote(v).split(',')
             elif k in ('sni', 'obfs', 'obfs-password'):
                 self.data[k] = v
-            elif k == 'fp': self.data['fingerprint'] = v
+            elif k == 'fp': self.data['client-fingerprint'] = v
 
     def _load_tuic(self, url: str, dt: str):
         parsed = self.urlparse(url)
@@ -465,7 +465,7 @@ class Node:
                 self.data['alpn'] = unquote(v).split(',')
             elif k in ('sni', 'udp_relay_mode'):
                 self.data[k.replace('_','-')] = v
-            elif k == 'fp': self.data['fingerprint'] = v
+            elif k == 'fp': self.data['client-fingerprint'] = v
             elif k == 'congestion_control': self.data['congestion-controller'] = v
 
     def _load__legacy(self, url: str, dt: str):
@@ -688,8 +688,8 @@ class Node:
             ret += f"insecure={int(data['skip-cert-verify'])}&"
         if 'alpn' in data:
             ret += f"alpn={quote(','.join(data['alpn']))}&"
-        if 'fingerprint' in data:
-            ret += f"fp={data['fingerprint']}&"
+        if 'client-fingerprint' in data:
+            ret += f"fp={data['client-fingerprint']}&"
         for k in ('sni', 'obfs', 'obfs-password'):
             if k in data:
                 ret += f"{k}={data[k]}&"
@@ -705,8 +705,8 @@ class Node:
             ret += f"allow_insecure={int(data['skip-cert-verify'])}&"
         if 'alpn' in data:
             ret += f"alpn={quote(','.join(data['alpn']))}&"
-        if 'fingerprint' in data:
-            ret += f"fp={data['fingerprint']}&"
+        if 'client-fingerprint' in data:
+            ret += f"fp={data['client-fingerprint']}&"
         if 'congestion-controller' in data:
             ret += f"congestion_control={data['congestion-controller']}&"
         for k in ('sni', 'udp-relay-mode'):
