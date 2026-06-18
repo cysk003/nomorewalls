@@ -1358,20 +1358,26 @@ def main():
     # Clash & Meta
     global_fp: Optional[str] = conf.get('global-client-fingerprint', None)
     proxies: List[Node.DATA_TYPE] = []
+    proxies_snip: List[Node.DATA_TYPE] = []
     proxies_meta: List[Node.DATA_TYPE] = []
+    proxies_meta_snip: List[Node.DATA_TYPE] = []
     ctg_base: Dict[str, Any] = conf['proxy-groups'][3].copy()
     names_clash: Union[Set[str], List[str]] = set()
     names_clash_meta: Union[Set[str], List[str]] = set()
     for p in merged.values():
         if p.supports_meta():
-            if ('client-fingerprint' in p.data and
-                    p.data['client-fingerprint'] == global_fp):
-                del p.data['client-fingerprint']
-            proxies_meta.append(p.clash_data)
-            names_clash_meta.add(p.data['name'])
+            clash_data = p.clash_data
+            clash_data_snip = clash_data.copy()
+            if ('client-fingerprint' in clash_data and
+                    clash_data['client-fingerprint'] == global_fp):
+                del clash_data['client-fingerprint']
             if p.supports_clash():
-                proxies.append(p.clash_data)
+                proxies.append(clash_data)
+                proxies_snip.append(clash_data_snip)
                 names_clash.add(p.data['name'])
+            proxies_meta.append(clash_data)
+            proxies_meta_snip.append(clash_data_snip)
+            names_clash_meta.add(p.data['name'])
     names_clash = list(names_clash)
     names_clash_meta = list(names_clash_meta)
     conf_meta = copy.deepcopy(conf)
@@ -1403,7 +1409,7 @@ def main():
         f.write(datetime.datetime.now().strftime('# Update: %Y-%m-%d %H:%M\n'))
         f.write(yaml.dump(conf, allow_unicode=True).replace('!!str ',''))
     with open("snippets/nodes.yml", 'w', encoding="utf-8") as f:
-        f.write(yaml.dump({'proxies': proxies}, allow_unicode=True).replace('!!str ',''))
+        f.write(yaml.dump({'proxies': proxies_snip}, allow_unicode=True).replace('!!str ',''))
 
     # Meta
     conf = conf_meta
@@ -1429,7 +1435,7 @@ def main():
         f.write(datetime.datetime.now().strftime('# Update: %Y-%m-%d %H:%M\n'))
         f.write(yaml.dump(conf, allow_unicode=True).replace('!!str ',''))
     with open("snippets/nodes.meta.yml", 'w', encoding="utf-8") as f:
-        f.write(yaml.dump({'proxies': proxies_meta}, allow_unicode=True).replace('!!str ',''))
+        f.write(yaml.dump({'proxies': proxies_meta_snip}, allow_unicode=True).replace('!!str ',''))
 
     if snip_conf:
         print("正在写出配置片段...")
